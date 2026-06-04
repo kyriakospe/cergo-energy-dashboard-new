@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CERGO Energy Dash</title>
+    <link rel="icon" type="image/png" href="public/brand/favicon-clean.png?v=13" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://basemaps.cartocdn.com" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
+    />
+    <link rel="stylesheet" href="src/styles.css?v=13" />
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <img class="brand-logo" src="public/brand/cergo-clean.png" alt="CERGO" />
+        <span class="product-name">Energy Dash</span>
+      </div>
+      <div class="market-strip" aria-label="Market status">
+        <span id="stripPrice">Loading markets</span>
+        <span id="stripChange" class="negative">...</span>
+        <button aria-label="Add alert">+</button>
+        <button aria-label="Notifications">!</button>
+        <button id="refreshButton" aria-label="Refresh data">↻</button>
+      </div>
+    </header>
+
+    <main class="dashboard-shell">
+      <section class="map-module" aria-label="Interactive commodity infrastructure map">
+        <div class="layer-toolbar" id="layerToolbar"></div>
+        <div class="map-stage" id="mapStage">
+          <div class="map-canvas" id="map"></div>
+          <svg class="map-overlay fallback-map" id="mapOverlay" viewBox="0 0 1200 440" aria-hidden="true"></svg>
+          <div class="map-status" id="mapStatus">Loading map layers</div>
+          <div class="tooltip" id="mapTooltip" role="status"></div>
+          <aside class="asset-panel" id="assetPanel" aria-live="polite">
+            <button class="panel-close" id="panelClose" aria-label="Close asset details">x</button>
+            <span class="eyebrow">Selected Asset</span>
+            <h2>Strait of Hormuz</h2>
+            <dl>
+              <div><dt>Layer</dt><dd>Chokepoint</dd></div>
+              <div><dt>Country</dt><dd>Oman / Iran</dd></div>
+              <div><dt>Status</dt><dd>Active</dd></div>
+              <div><dt>Relevance</dt><dd>Crude and LNG transit</dd></div>
+              <div><dt>Source</dt><dd>CERGO curated, May 2026</dd></div>
+            </dl>
+          </aside>
+          <div class="map-legend" id="mapLegend"></div>
+          <button class="map-next" id="cycleAsset" aria-label="Cycle selected asset">›</button>
+        </div>
+      </section>
+
+      <section class="primary-grid" aria-label="Market widgets">
+        <article class="card news-card">
+          <div class="card-header">
+            <h2>Energy & Commodities News</h2>
+            <span class="freshness">Updated 12 min ago</span>
+          </div>
+          <div class="tabs compact" id="newsFilters"></div>
+          <div class="news-list" id="newsList"></div>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <h2>Futures Watchlist</h2>
+            <span class="freshness">Delayed</span>
+          </div>
+          <div class="tabs" data-tabs="futures"></div>
+          <div class="watchlist" id="futuresList"></div>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <h2>Market Leaders</h2>
+            <span class="freshness">15 min delay</span>
+          </div>
+          <div class="tabs" data-tabs="stocks"></div>
+          <div class="watchlist" id="stocksList"></div>
+        </article>
+      </section>
+
+      <section class="secondary-grid" aria-label="Performance and country indices">
+        <article class="card rankings-card">
+          <div class="card-header">
+            <h2>Performance Rankings</h2>
+            <span class="freshness">Precomputed</span>
+          </div>
+          <div class="time-tabs" id="timeTabs"></div>
+          <div class="ranking-grid" id="rankings"></div>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <h2>Country Indices</h2>
+            <span class="freshness">Resource basket</span>
+          </div>
+          <div class="country-list" id="countryList"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="src/app.js?v=13" type="module"></script>
+  </body>
+</html>

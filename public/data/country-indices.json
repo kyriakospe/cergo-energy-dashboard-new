@@ -1,0 +1,71 @@
+[
+  {
+    "country": "Brazil",
+    "index": "Bovespa",
+    "exchange": "B3",
+    "value": 170330.62,
+    "changePct1D": -2.22,
+    "flagCss": "linear-gradient(135deg, #159447 0 100%)",
+    "source": "Yahoo Finance",
+    "updatedAt": "2026-06-03 20:19 UTC"
+  },
+  {
+    "country": "South Africa",
+    "index": "FTSE/JSE",
+    "exchange": "JSE",
+    "value": 73484,
+    "changePct1D": 0.3,
+    "flagCss": "linear-gradient(90deg, #111 0 22%, #f4cc3c 22% 34%, #159447 34% 56%, #fff 56% 68%, #d92f2f 68%)",
+    "source": "Previous cached value"
+  },
+  {
+    "country": "Mexico",
+    "index": "IPC",
+    "exchange": "BMV",
+    "value": 68285.82,
+    "changePct1D": -0.88,
+    "flagCss": "linear-gradient(90deg, #178f4c 0 33%, #fff 33% 66%, #c72d36 66%)",
+    "source": "Yahoo Finance",
+    "updatedAt": "2026-06-03 20:26 UTC"
+  },
+  {
+    "country": "Saudi Arabia",
+    "index": "TASI",
+    "exchange": "Tadawul",
+    "value": 10998.66,
+    "changePct1D": -0.03,
+    "flagCss": "linear-gradient(#0b7a4b 0 100%)",
+    "source": "Yahoo Finance",
+    "updatedAt": "2026-06-04 10:53 UTC"
+  },
+  {
+    "country": "Norway",
+    "index": "OSEBX",
+    "exchange": "Oslo",
+    "value": 2001.2,
+    "changePct1D": -0.49,
+    "flagCss": "linear-gradient(90deg, #bd1f2d 0 100%)",
+    "source": "Yahoo Finance",
+    "updatedAt": "2026-06-04 10:53 UTC"
+  },
+  {
+    "country": "Canada",
+    "index": "TSX",
+    "exchange": "TMX",
+    "value": 34801.54,
+    "changePct1D": -1.05,
+    "flagCss": "linear-gradient(90deg, #d7252f 0 25%, #fff 25% 75%, #d7252f 75%)",
+    "source": "Yahoo Finance",
+    "updatedAt": "2026-06-03 20:20 UTC"
+  },
+  {
+    "country": "Australia",
+    "index": "ASX 200",
+    "exchange": "ASX",
+    "value": 8686.1,
+    "changePct1D": -1.13,
+    "flagCss": "linear-gradient(#1c3f8e 0 100%)",
+    "source": "Yahoo Finance",
+    "updatedAt": "2026-06-04 07:05 UTC"
+  }
+]
