@@ -29,3 +29,9 @@ The updater writes normalized static JSON into `public/data`:
 - `news.json`
 
 Market data is delayed Yahoo Finance chart data. News is pulled from EIA RSS plus targeted Google News RSS searches for energy, commodities, and agriculture. Map infrastructure is curated GeoJSON in `public/data/map/features.geojson`.
+
+## Automated data refresh
+
+GitHub Actions runs `.github/workflows/update-data.yml` every 2 hours and can also be started manually from the repository's **Actions** tab. The workflow runs `scripts/update_data.py`, validates the generated JSON, and commits changes under `public/data` back to `main` so GitHub Pages serves the refreshed dashboard data.
+
+If the workflow fails with a permission error when pushing, open the repository on GitHub and enable **Settings > Actions > General > Workflow permissions > Read and write permissions**.
