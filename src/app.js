@@ -179,18 +179,39 @@ function initMapLibre(mapData) {
     style: {
       version: 8,
       sources: {
-        carto: {
-          type: "raster",
-          tiles: [
-            "https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
-            "https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
-            "https://c.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
-          ],
-          tileSize: 256,
-          attribution: "© OpenStreetMap contributors © CARTO"
+        countries: {
+          type: "geojson",
+          data: "public/data/map/countries.geojson",
+          attribution: "Natural Earth"
         }
       },
-      layers: [{ id: "carto", type: "raster", source: "carto" }]
+      layers: [
+        {
+          id: "sea",
+          type: "background",
+          paint: {
+            "background-color": "rgb(83, 116, 129)"
+          }
+        },
+        {
+          id: "countries",
+          type: "fill",
+          source: "countries",
+          paint: {
+            "fill-color": "rgb(240, 239, 225)",
+            "fill-opacity": 1
+          }
+        },
+        {
+          id: "country-borders",
+          type: "line",
+          source: "countries",
+          paint: {
+            "line-color": "rgba(51, 60, 87, 0.26)",
+            "line-width": 0.7
+          }
+        }
+      ]
     }
   });
   window.cergoMap = map;

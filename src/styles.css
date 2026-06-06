@@ -175,9 +175,7 @@ button {
   inset: 0;
 }
 
-.maplibregl-canvas {
-  filter: saturate(0.78) contrast(1.08) brightness(0.88);
-}
+.maplibregl-canvas { filter: none; }
 
 .maplibregl-ctrl-bottom-left,
 .maplibregl-ctrl-bottom-right {
@@ -550,9 +548,7 @@ button {
   stroke-opacity: 0.24;
 }
 
-.maplibregl-canvas {
-  filter: saturate(0.72) contrast(1.02) brightness(0.92);
-}
+.maplibregl-canvas { filter: none; }
 
 @media (max-width: 1180px) {
   .primary-grid, .secondary-grid { grid-template-columns: 1fr 1fr; }
