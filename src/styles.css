@@ -360,9 +360,9 @@ button {
 
 .map-next {
   position: absolute;
-  left: 50%;
+  right: 16px;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
   z-index: 5;
   width: 44px;
   height: 44px;

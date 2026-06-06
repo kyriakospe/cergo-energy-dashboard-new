@@ -113207,6 +113207,2450 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Nord Stream Corridor",
+        "country": "Russia / Germany",
+        "status": "Partially offline / damaged",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28,
+            60
+          ],
+          [
+            24,
+            58
+          ],
+          [
+            20,
+            56
+          ],
+          [
+            15,
+            55
+          ],
+          [
+            12,
+            54.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Yamal-Europe Pipeline",
+        "country": "Russia / Belarus / Poland / Germany",
+        "status": "Constrained / route available",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            55,
+            67
+          ],
+          [
+            45,
+            60
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            23,
+            52
+          ],
+          [
+            14,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Druzhba Oil Pipeline",
+        "country": "Russia / Belarus / Ukraine / EU",
+        "status": "Operating / constrained by sanctions and war risk",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            38,
+            55
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            20,
+            49
+          ],
+          [
+            17,
+            48
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Baku-Tbilisi-Ceyhan Pipeline",
+        "country": "Azerbaijan / Georgia / Turkey",
+        "status": "Operating",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50,
+            40.4
+          ],
+          [
+            45,
+            41.6
+          ],
+          [
+            40,
+            40
+          ],
+          [
+            35.9,
+            36.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Trans Adriatic Pipeline",
+        "country": "Greece / Albania / Italy",
+        "status": "Operating",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22,
+            40.5
+          ],
+          [
+            20,
+            40.7
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            16.5,
+            40.6
+          ],
+          [
+            14.2,
+            40.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Trans-Mediterranean Pipeline",
+        "country": "Algeria / Tunisia / Italy",
+        "status": "Operating",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1,
+            30.6
+          ],
+          [
+            8.8,
+            34.7
+          ],
+          [
+            11.5,
+            37.2
+          ],
+          [
+            14.2,
+            37.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Medgaz Pipeline",
+        "country": "Algeria / Spain",
+        "status": "Operating",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.2,
+            35.7
+          ],
+          [
+            -1.9,
+            36.3
+          ],
+          [
+            -2.9,
+            36.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Maghreb-Europe Pipeline",
+        "country": "Algeria / Morocco / Spain",
+        "status": "Partially constrained",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.9,
+            32
+          ],
+          [
+            -2.2,
+            34.6
+          ],
+          [
+            -5.8,
+            35.8
+          ],
+          [
+            -5.6,
+            36.1
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "West-East Gas Pipeline",
+        "country": "China",
+        "status": "Operating",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            87,
+            43
+          ],
+          [
+            98,
+            39
+          ],
+          [
+            108,
+            35
+          ],
+          [
+            116,
+            32
+          ],
+          [
+            121,
+            31
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Central Asia-China Gas Pipeline",
+        "country": "Turkmenistan / Uzbekistan / Kazakhstan / China",
+        "status": "Operating",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            58,
+            38
+          ],
+          [
+            66,
+            40
+          ],
+          [
+            76,
+            43
+          ],
+          [
+            86,
+            43
+          ],
+          [
+            94,
+            42
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "East-West Crude Oil Pipeline",
+        "country": "Saudi Arabia",
+        "status": "Operating",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.6,
+            26.8
+          ],
+          [
+            45,
+            25.6
+          ],
+          [
+            40.4,
+            24.2
+          ],
+          [
+            39,
+            22.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "TAPI Pipeline Route",
+        "country": "Turkmenistan / Afghanistan / Pakistan / India",
+        "status": "Planned / delayed",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            58.4,
+            37.9
+          ],
+          [
+            63.8,
+            34.4
+          ],
+          [
+            67,
+            31.5
+          ],
+          [
+            70.2,
+            30.2
+          ],
+          [
+            74.3,
+            31.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Trans-Saharan Gas Pipeline Route",
+        "country": "Nigeria / Niger / Algeria",
+        "status": "Proposed",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.5,
+            5.5
+          ],
+          [
+            8.6,
+            13.5
+          ],
+          [
+            7.6,
+            21
+          ],
+          [
+            3.1,
+            30.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Keystone Pipeline System",
+        "country": "Canada / United States",
+        "status": "Operating",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110,
+            53
+          ],
+          [
+            -106,
+            49
+          ],
+          [
+            -102,
+            44
+          ],
+          [
+            -98,
+            39
+          ],
+          [
+            -96,
+            35
+          ],
+          [
+            -95,
+            30
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Trans Mountain Pipeline",
+        "country": "Canada",
+        "status": "Operating / expanded",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -113.5,
+            53.5
+          ],
+          [
+            -120,
+            51
+          ],
+          [
+            -122.9,
+            49.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "pipelines",
+        "name": "Southern Gas Corridor",
+        "country": "Azerbaijan / Turkey / Europe",
+        "status": "Operating",
+        "source": "CERGO curated from public pipeline references",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.5,
+            40.4
+          ],
+          [
+            43,
+            40
+          ],
+          [
+            35,
+            39
+          ],
+          [
+            26,
+            40
+          ],
+          [
+            20,
+            41
+          ],
+          [
+            14,
+            41
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "Bab el-Mandeb Strait",
+        "country": "Yemen / Djibouti / Eritrea",
+        "status": "Active / high risk",
+        "source": "EIA World Oil Transit Chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "Red Sea crude, products, LNG, and container transit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.4,
+          12.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "Panama Canal",
+        "country": "Panama",
+        "status": "Active / drought-sensitive",
+        "source": "EIA World Oil Transit Chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "Atlantic-Pacific refined products, LNG, and container transit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7,
+          9.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "Turkish Straits",
+        "country": "Turkey",
+        "status": "Active",
+        "source": "EIA World Oil Transit Chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "Black Sea oil, grain, and bulk trade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29,
+          41.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "Danish Straits",
+        "country": "Denmark / Sweden",
+        "status": "Active",
+        "source": "EIA World Oil Transit Chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "Baltic crude, products, and LNG access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6,
+          55.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "Cape of Good Hope",
+        "country": "South Africa",
+        "status": "Major diversion route",
+        "source": "EIA World Oil Transit Chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "Alternative route for Suez and Red Sea disruptions"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5,
+          -34.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "Strait of Gibraltar",
+        "country": "Spain / Morocco",
+        "status": "Active",
+        "source": "CERGO curated maritime chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "Mediterranean-Atlantic oil, LNG, and container access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6,
+          35.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "Lombok Strait",
+        "country": "Indonesia",
+        "status": "Active",
+        "source": "CERGO curated maritime chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "Deepwater alternative to Malacca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8,
+          -8.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "Sunda Strait",
+        "country": "Indonesia",
+        "status": "Active",
+        "source": "CERGO curated maritime chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "Indonesia archipelago shipping route"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9,
+          -6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "Mozambique Channel",
+        "country": "Mozambique / Madagascar",
+        "status": "Active",
+        "source": "CERGO curated maritime chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "East Africa LNG and tanker route"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5,
+          -18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "chokepoints",
+        "name": "English Channel",
+        "country": "United Kingdom / France",
+        "status": "Active",
+        "source": "CERGO curated maritime chokepoints",
+        "updatedAt": "Jun 2026",
+        "relevance": "Northwest Europe products, LNG, and container traffic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5,
+          50.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Corpus Christi LNG",
+        "country": "United States",
+        "status": "Operating / expanding",
+        "source": "EIA LNG export terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Major US LNG export terminal",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3,
+          27.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Freeport LNG",
+        "country": "United States",
+        "status": "Operating",
+        "source": "EIA LNG export terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Major US LNG export terminal",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3,
+          28.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Cameron LNG",
+        "country": "United States",
+        "status": "Operating",
+        "source": "EIA LNG export terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Major US LNG export terminal",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3,
+          30
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Plaquemines LNG",
+        "country": "United States",
+        "status": "Operating / ramping",
+        "source": "EIA LNG export terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "New US Gulf LNG export capacity",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.9,
+          29.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Golden Pass LNG",
+        "country": "United States",
+        "status": "Under construction / startup expected",
+        "source": "EIA LNG export terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Major US Gulf LNG project",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9,
+          29.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Gorgon LNG",
+        "country": "Australia",
+        "status": "Operating",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Major LNG export terminal",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.4,
+          -20.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "North West Shelf LNG",
+        "country": "Australia",
+        "status": "Operating",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Major LNG export terminal",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8,
+          -20.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Yamal LNG",
+        "country": "Russia",
+        "status": "Operating",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Arctic LNG export",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.1,
+          71.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Sakhalin-2 LNG",
+        "country": "Russia",
+        "status": "Operating",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Far East LNG export",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9,
+          46.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Bintulu LNG",
+        "country": "Malaysia",
+        "status": "Operating",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Major LNG export terminal",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1,
+          3.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Bonny LNG",
+        "country": "Nigeria",
+        "status": "Operating",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Major LNG export terminal",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2,
+          4.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Rovuma LNG / Coral South",
+        "country": "Mozambique",
+        "status": "Operating / developing",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "East Africa LNG export",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.6,
+          -12.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Snohvit LNG",
+        "country": "Norway",
+        "status": "Operating",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Arctic LNG export",
+        "commodity": "LNG export"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7,
+          70.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Zeebrugge LNG Terminal",
+        "country": "Belgium",
+        "status": "Operating",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Northwest Europe LNG import and transshipment",
+        "commodity": "LNG import"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2,
+          51.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "lng-terminals",
+        "name": "Gate LNG Terminal",
+        "country": "Netherlands",
+        "status": "Operating",
+        "source": "CERGO curated LNG terminal coverage",
+        "updatedAt": "Jun 2026",
+        "capacity": "Northwest Europe LNG import",
+        "commodity": "LNG import"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4,
+          51.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "shipping-traffic",
+        "name": "Asia-Europe Container Route",
+        "country": "Global",
+        "status": "Active / Red Sea-sensitive",
+        "source": "CERGO curated shipping lanes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121,
+            31
+          ],
+          [
+            105,
+            1
+          ],
+          [
+            80,
+            7
+          ],
+          [
+            58,
+            13
+          ],
+          [
+            43,
+            13
+          ],
+          [
+            32,
+            30
+          ],
+          [
+            5,
+            51
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "shipping-traffic",
+        "name": "Cape Diversion Route",
+        "country": "Global",
+        "status": "Active during Red Sea disruption",
+        "source": "CERGO curated shipping lanes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103,
+            1
+          ],
+          [
+            78,
+            -10
+          ],
+          [
+            52,
+            -25
+          ],
+          [
+            20,
+            -35
+          ],
+          [
+            -5,
+            35
+          ],
+          [
+            5,
+            51
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "shipping-traffic",
+        "name": "Trans-Pacific Container Route",
+        "country": "Global",
+        "status": "Active",
+        "source": "CERGO curated shipping lanes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121,
+            31
+          ],
+          [
+            145,
+            36
+          ],
+          [
+            -170,
+            42
+          ],
+          [
+            -135,
+            45
+          ],
+          [
+            -122,
+            37
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "shipping-traffic",
+        "name": "US Gulf to Europe Products Route",
+        "country": "Global",
+        "status": "Active",
+        "source": "CERGO curated shipping lanes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -94,
+            29
+          ],
+          [
+            -75,
+            32
+          ],
+          [
+            -45,
+            42
+          ],
+          [
+            -15,
+            48
+          ],
+          [
+            4,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "shipping-traffic",
+        "name": "Brazil to Europe Atlantic Route",
+        "country": "Global",
+        "status": "Active",
+        "source": "CERGO curated shipping lanes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46,
+            -24
+          ],
+          [
+            -35,
+            -10
+          ],
+          [
+            -25,
+            10
+          ],
+          [
+            -14,
+            32
+          ],
+          [
+            -5,
+            43
+          ],
+          [
+            4,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "shipping-traffic",
+        "name": "Australia to North Asia Bulk Route",
+        "country": "Global",
+        "status": "Active",
+        "source": "CERGO curated shipping lanes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118,
+            -22
+          ],
+          [
+            122,
+            -10
+          ],
+          [
+            128,
+            5
+          ],
+          [
+            134,
+            22
+          ],
+          [
+            140,
+            36
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "trade-routes",
+        "name": "US Gulf LNG to Europe",
+        "country": "United States / Europe",
+        "status": "Active",
+        "source": "CERGO curated trade routes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -94,
+            29
+          ],
+          [
+            -70,
+            35
+          ],
+          [
+            -45,
+            43
+          ],
+          [
+            -20,
+            49
+          ],
+          [
+            4,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "trade-routes",
+        "name": "Qatar LNG to Europe",
+        "country": "Qatar / Europe",
+        "status": "Active / route-risk sensitive",
+        "source": "CERGO curated trade routes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.5,
+            25.9
+          ],
+          [
+            43,
+            13
+          ],
+          [
+            32,
+            30
+          ],
+          [
+            16,
+            38
+          ],
+          [
+            4,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "trade-routes",
+        "name": "Qatar LNG to North Asia",
+        "country": "Qatar / Japan / Korea / China",
+        "status": "Active",
+        "source": "CERGO curated trade routes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            51.5,
+            25.9
+          ],
+          [
+            64,
+            19
+          ],
+          [
+            80,
+            8
+          ],
+          [
+            103,
+            2
+          ],
+          [
+            121,
+            22
+          ],
+          [
+            139,
+            35
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "trade-routes",
+        "name": "West Africa Crude to Europe",
+        "country": "Nigeria / Angola / Europe",
+        "status": "Active",
+        "source": "CERGO curated trade routes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7,
+            4
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            -8,
+            25
+          ],
+          [
+            -5,
+            36
+          ],
+          [
+            4,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "trade-routes",
+        "name": "Black Sea Grain Route",
+        "country": "Ukraine / Mediterranean",
+        "status": "Active / war-risk sensitive",
+        "source": "CERGO curated trade routes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31,
+            46
+          ],
+          [
+            29,
+            41
+          ],
+          [
+            25,
+            38
+          ],
+          [
+            18,
+            36
+          ],
+          [
+            10,
+            36
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "trade-routes",
+        "name": "Chile Copper to North Asia",
+        "country": "Chile / China",
+        "status": "Active",
+        "source": "CERGO curated trade routes",
+        "updatedAt": "Jun 2026"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70,
+            -24
+          ],
+          [
+            -95,
+            -20
+          ],
+          [
+            -130,
+            -10
+          ],
+          [
+            -170,
+            10
+          ],
+          [
+            140,
+            30
+          ],
+          [
+            121,
+            31
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Rotterdam",
+        "country": "Netherlands",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Oil products, LNG, chemicals, bulk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1,
+          51.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Singapore",
+        "country": "Singapore",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Oil products, bunkering, containers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8,
+          1.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Fujairah",
+        "country": "United Arab Emirates",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Crude and refined products storage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.35,
+          25.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Ras Tanura",
+        "country": "Saudi Arabia",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Crude exports"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.15,
+          26.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Houston",
+        "country": "United States",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Oil products, petrochemicals, LNG-linked Gulf trade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95,
+          29.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Corpus Christi",
+        "country": "United States",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Crude, LNG, products"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4,
+          27.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Newcastle",
+        "country": "Australia",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Coal and bulk commodities"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8,
+          -32.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port Hedland",
+        "country": "Australia",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Iron ore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.6,
+          -20.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Richards Bay",
+        "country": "South Africa",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Coal and bulk commodities"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.1,
+          -28.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Tubarao",
+        "country": "Brazil",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Iron ore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2,
+          -20.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-ports",
+        "name": "Port of Ningbo-Zhoushan",
+        "country": "China",
+        "status": "Operating",
+        "source": "CERGO curated port coverage",
+        "updatedAt": "Jun 2026",
+        "commodity": "Crude, iron ore, containers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1,
+          29.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-hubs",
+        "name": "Henry Hub",
+        "country": "United States",
+        "status": "Operating",
+        "source": "CERGO curated commodity hubs",
+        "updatedAt": "Jun 2026",
+        "commodity": "US natural gas benchmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1,
+          30.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-hubs",
+        "name": "TTF Gas Hub",
+        "country": "Netherlands",
+        "status": "Operating",
+        "source": "CERGO curated commodity hubs",
+        "updatedAt": "Jun 2026",
+        "commodity": "European natural gas benchmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2,
+          52.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-hubs",
+        "name": "JKM LNG Marker",
+        "country": "Japan / Korea",
+        "status": "Benchmark",
+        "source": "CERGO curated commodity hubs",
+        "updatedAt": "Jun 2026",
+        "commodity": "Northeast Asia LNG benchmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135,
+          35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-hubs",
+        "name": "Fujairah Oil Storage Hub",
+        "country": "United Arab Emirates",
+        "status": "Operating",
+        "source": "CERGO curated commodity hubs",
+        "updatedAt": "Jun 2026",
+        "commodity": "Oil products and bunkering"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.35,
+          25.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-hubs",
+        "name": "ARA Oil Products Hub",
+        "country": "Netherlands / Belgium",
+        "status": "Operating",
+        "source": "CERGO curated commodity hubs",
+        "updatedAt": "Jun 2026",
+        "commodity": "Amsterdam-Rotterdam-Antwerp products hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4,
+          51.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-hubs",
+        "name": "Shanghai Futures Exchange",
+        "country": "China",
+        "status": "Operating",
+        "source": "CERGO curated commodity hubs",
+        "updatedAt": "Jun 2026",
+        "commodity": "Metals and energy futures"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5,
+          31.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-hubs",
+        "name": "LME London",
+        "country": "United Kingdom",
+        "status": "Operating",
+        "source": "CERGO curated commodity hubs",
+        "updatedAt": "Jun 2026",
+        "commodity": "Base metals benchmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1,
+          51.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "commodity-hubs",
+        "name": "Chicago Board of Trade",
+        "country": "United States",
+        "status": "Operating",
+        "source": "CERGO curated commodity hubs",
+        "updatedAt": "Jun 2026",
+        "commodity": "Agriculture futures benchmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6,
+          41.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Grasberg Copper-Gold Mine",
+        "country": "Indonesia",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Copper and gold"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.1,
+          -4.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Collahuasi Copper Mine",
+        "country": "Chile",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Copper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7,
+          -20.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Cerro Verde Copper Mine",
+        "country": "Peru",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Copper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6,
+          -16.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Carajas Iron Ore Complex",
+        "country": "Brazil",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Iron ore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.2,
+          -6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Sishen Iron Ore Mine",
+        "country": "South Africa",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Iron ore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23,
+          -27.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Oyu Tolgoi Copper-Gold Mine",
+        "country": "Mongolia",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Copper and gold"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9,
+          43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Norilsk Nickel Complex",
+        "country": "Russia",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Nickel, copper, palladium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.2,
+          69.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Jwaneng Diamond Mine",
+        "country": "Botswana",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Diamonds"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7,
+          -24.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Khumani / Kalahari Manganese Field",
+        "country": "South Africa",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Manganese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9,
+          -27.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "mining-sites",
+        "name": "Antamina Mine",
+        "country": "Peru",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Copper and zinc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1,
+          -9.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Salar de Atacama Lithium Brine",
+        "country": "Chile",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Lithium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.25,
+          -23.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Salar de Uyuni Lithium Resource",
+        "country": "Bolivia",
+        "status": "Developing",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Lithium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5,
+          -20.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Mt Marion Lithium",
+        "country": "Australia",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Lithium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5,
+          -31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Jadar Lithium Project",
+        "country": "Serbia",
+        "status": "Proposed / contested",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Lithium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3,
+          44.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Tenke Fungurume",
+        "country": "Democratic Republic of the Congo",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Copper and cobalt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1,
+          -10.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Mutanda Mining",
+        "country": "Democratic Republic of the Congo",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Cobalt and copper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.4,
+          -10.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Weda Bay Nickel",
+        "country": "Indonesia",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Nickel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128,
+          0.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Voisey's Bay Nickel Mine",
+        "country": "Canada",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Nickel and cobalt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.1,
+          56.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Mountain Pass Rare Earth Mine",
+        "country": "United States",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Rare earths"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5,
+          35.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Bayan Obo Rare Earth District",
+        "country": "China",
+        "status": "Operating",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Rare earths"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.97,
+          41.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "critical-minerals",
+        "name": "Graphite Fields Cabo Delgado",
+        "country": "Mozambique",
+        "status": "Operating / developing",
+        "source": "USGS / CERGO curated",
+        "updatedAt": "Jun 2026",
+        "commodity": "Graphite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1,
+          -13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Ras Laffan Industrial City",
+        "country": "Qatar",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "LNG and gas processing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5,
+          25.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Ruwais Refining Complex",
+        "country": "United Arab Emirates",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "Refining and petrochemicals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.7,
+          24.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Jamnagar Refinery Complex",
+        "country": "India",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "Refining and petrochemicals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.1,
+          22.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Ulsan Refining and Petrochemical Complex",
+        "country": "South Korea",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "Refining and petrochemicals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.35,
+          35.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Ningbo Petrochemical Complex",
+        "country": "China",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "Refining and petrochemicals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8,
+          29.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Jurong Island Petrochemical Complex",
+        "country": "Singapore",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "Refining and petrochemicals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7,
+          1.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Antwerp Refining and Chemical Cluster",
+        "country": "Belgium",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "Refining and petrochemicals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3,
+          51.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Baytown Refinery and Chemical Complex",
+        "country": "United States",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "Refining and petrochemicals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95,
+          29.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Kwinana Lithium Hydroxide Plant",
+        "country": "Australia",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "Lithium processing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8,
+          -32.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "layer": "processing-plants",
+        "name": "Morowali Nickel Industrial Park",
+        "country": "Indonesia",
+        "status": "Operating",
+        "source": "CERGO curated processing assets",
+        "updatedAt": "Jun 2026",
+        "commodity": "Nickel processing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9,
+          -2.8
+        ]
+      }
     }
   ]
 }
