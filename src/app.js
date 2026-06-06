@@ -52,13 +52,22 @@ function titleCase(value) {
 }
 
 function renderLayerToolbar() {
-  $("#layerToolbar").innerHTML = layerConfig.map((layer) => `
-    <label class="layer-toggle">
-      <input type="checkbox" data-layer="${layer.id}" ${layer.checked ? "checked" : ""} />
-      <span class="checkmark"></span>
-      ${layer.label}
-    </label>
-  `).join("");
+  $("#layerToolbar").innerHTML = `
+    <div class="layer-actions" aria-label="Layer visibility controls">
+      <button type="button" class="layer-action" data-layer-action="none">Remove all</button>
+      <button type="button" class="layer-action" data-layer-action="all">Add all</button>
+    </div>
+    <div class="layer-toggle-list">
+      ${layerConfig.map((layer) => `
+        <label class="layer-toggle">
+          <input type="checkbox" data-layer="${layer.id}" ${layer.checked ? "checked" : ""} />
+          <span class="checkmark"></span>
+          <span class="layer-color-dot" style="--layer-color:${layer.color}"></span>
+          ${layer.label}
+        </label>
+      `).join("")}
+    </div>
+  `;
 
   $("#mapLegend").innerHTML = layerConfig.slice(0, 8).map((layer) => `
     <span class="legend-pill"><span class="legend-dot" style="--legend-color:${layer.color}"></span>${layer.label}</span>
@@ -68,6 +77,18 @@ function renderLayerToolbar() {
     const target = event.target;
     if (!target.dataset.layer) return;
     setLayerVisibility(target.dataset.layer, target.checked);
+  });
+
+  $("#layerToolbar").addEventListener("click", (event) => {
+    const action = event.target.dataset.layerAction;
+    if (!action) return;
+
+    const visible = action === "all";
+    layerConfig.forEach((layer) => {
+      setLayerVisibility(layer.id, visible);
+      const checkbox = $(`#layerToolbar input[data-layer="${layer.id}"]`);
+      if (checkbox) checkbox.checked = visible;
+    });
   });
 }
 
