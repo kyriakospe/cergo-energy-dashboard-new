@@ -224,41 +224,39 @@ button {
 .projected-line-glow {
   fill: none;
   stroke-width: 10;
-  stroke-opacity: 0.3;
+  stroke-opacity: 0.18;
   stroke-linecap: round;
   stroke-linejoin: round;
-  filter: drop-shadow(0 0 7px currentColor);
+  filter: drop-shadow(0 0 5px rgba(255,255,255,0.14));
 }
 .projected-line {
   fill: none;
   stroke-width: 3.2;
-  stroke-opacity: 0.95;
+  stroke-opacity: 0.82;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 .projected-line.dashed-line { stroke-dasharray: 7 7; }
 .projected-line.solid-line { stroke-dasharray: none; }
 .projected-sanction-poly {
-  fill: rgba(80, 86, 81, 0.46);
-  stroke: rgba(80, 86, 81, 0.98);
   stroke-width: 1.4;
 }
 .projected-dot-glow {
-  opacity: 0.32;
+  opacity: 0.2;
   filter: blur(2px);
 }
 .projected-dot {
   stroke: rgba(12,18,28,0.9);
   stroke-width: 2;
-  opacity: 0.98;
-  filter: drop-shadow(0 0 7px rgba(255,255,255,0.28));
+  opacity: 0.88;
+  filter: drop-shadow(0 0 5px rgba(255,255,255,0.16));
 }
 .route-line { fill: none; stroke-width: 1.3; stroke-dasharray: 5 5; opacity: 0.72; }
-.pipeline-line { fill: none; stroke-width: 3.1; stroke: #89d9ff; opacity: 0.95; filter: drop-shadow(0 0 5px rgba(137,217,255,0.5)); }
-.shipping-line { fill: none; stroke-width: 2; stroke: #d8edff; opacity: 0.88; filter: drop-shadow(0 0 4px rgba(216,237,255,0.38)); }
-.trade-line { fill: none; stroke-width: 2.5; stroke: #8dd7ff; opacity: 0.9; filter: drop-shadow(0 0 5px rgba(91,185,217,0.45)); }
-.sanction-poly { fill: rgba(80, 86, 81, 0.34); stroke: rgba(80, 86, 81, 0.82); stroke-width: 1; }
-.asset-dot { stroke: rgba(12,18,28,0.8); stroke-width: 2; transition: opacity 160ms ease, transform 160ms ease; filter: drop-shadow(0 0 6px currentColor); }
+.pipeline-line { fill: none; stroke-width: 3.1; opacity: 0.84; filter: drop-shadow(0 0 4px rgba(255,255,255,0.18)); }
+.shipping-line { fill: none; stroke-width: 2; opacity: 0.78; filter: drop-shadow(0 0 3px rgba(255,255,255,0.16)); }
+.trade-line { fill: none; stroke-width: 2.5; opacity: 0.8; filter: drop-shadow(0 0 4px rgba(255,255,255,0.17)); }
+.sanction-poly { stroke-width: 1; }
+.asset-dot { stroke: rgba(12,18,28,0.8); stroke-width: 2; transition: opacity 160ms ease, transform 160ms ease; filter: drop-shadow(0 0 4px rgba(255,255,255,0.18)); }
 .asset-dot:hover { opacity: 1; transform: scale(1.25); }
 .asset-icon { pointer-events: all; cursor: pointer; }
 

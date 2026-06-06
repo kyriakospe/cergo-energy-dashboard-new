@@ -1,15 +1,15 @@
 const layerConfig = [
-  { id: "pipelines", label: "Pipelines", color: "rgb(180, 196, 212)", kind: "line", checked: true },
-  { id: "lng-terminals", label: "LNG Terminals", color: "rgb(123, 147, 155)", kind: "point", checked: true },
-  { id: "shipping-traffic", label: "Shipping Traffic", color: "rgb(240, 239, 225)", kind: "line", checked: true },
-  { id: "trade-routes", label: "Trade Routes", color: "rgb(156, 180, 185)", kind: "line", checked: true },
-  { id: "mining-sites", label: "Mining Sites", color: "rgb(173, 182, 186)", kind: "point", checked: true },
-  { id: "chokepoints", label: "Chokepoints", color: "rgb(83, 116, 129)", kind: "point", checked: true },
-  { id: "processing-plants", label: "Processing Plants", color: "rgb(107, 118, 113)", kind: "point", checked: true },
-  { id: "commodity-ports", label: "Commodity Ports", color: "rgb(186, 205, 209)", kind: "point", checked: true },
-  { id: "commodity-hubs", label: "Commodity Hubs", color: "rgb(59, 84, 99)", kind: "point", checked: true },
-  { id: "critical-minerals", label: "Critical Minerals", color: "rgb(123, 147, 155)", kind: "point", checked: true },
-  { id: "sanctioned-countries", label: "Sanctioned Countries", color: "rgb(80, 86, 81)", kind: "polygon", checked: true }
+  { id: "pipelines", label: "Pipelines", color: "#6fb7d6", kind: "line", checked: true },
+  { id: "lng-terminals", label: "LNG Terminals", color: "#d7a85a", kind: "point", checked: true },
+  { id: "shipping-traffic", label: "Shipping Traffic", color: "#c58ccf", kind: "line", checked: true },
+  { id: "trade-routes", label: "Trade Routes", color: "#75b98b", kind: "line", checked: true },
+  { id: "mining-sites", label: "Mining Sites", color: "#d98686", kind: "point", checked: true },
+  { id: "chokepoints", label: "Chokepoints", color: "#d9e1e3", kind: "point", checked: true },
+  { id: "processing-plants", label: "Processing Plants", color: "#a995d7", kind: "point", checked: true },
+  { id: "commodity-ports", label: "Commodity Ports", color: "#70c8bb", kind: "point", checked: true },
+  { id: "commodity-hubs", label: "Commodity Hubs", color: "#d69563", kind: "point", checked: true },
+  { id: "critical-minerals", label: "Critical Minerals", color: "#c7d66f", kind: "point", checked: true },
+  { id: "sanctioned-countries", label: "Sanctioned Countries", color: "#d87398", kind: "polygon", checked: true }
 ];
 
 const tabs = ["energy", "commodities", "agriculture"];
@@ -72,9 +72,19 @@ function renderLayerToolbar() {
 }
 
 function setLayerVisibility(layerId, visible) {
+  const layer = layerConfig.find((item) => item.id === layerId);
+  if (layer) layer.checked = visible;
   document.querySelectorAll(`[data-map-layer="${layerId}"]`).forEach((node) => {
     node.style.display = visible ? "" : "none";
   });
+}
+
+function applyLayerVisibility(group, layer) {
+  group.style.display = layer.checked ? "" : "none";
+}
+
+function sanctionOpacity(feature) {
+  return 0.16;
 }
 
 function splitFeaturesByLayer(featureCollection) {
@@ -224,6 +234,12 @@ function polygonFromCoords(coords) {
   return coords.map((coord) => project(coord).map((n) => n.toFixed(1)).join(",")).join(" ");
 }
 
+function polygonRings(geometry) {
+  if (geometry.type === "Polygon") return [geometry.coordinates[0]];
+  if (geometry.type === "MultiPolygon") return geometry.coordinates.map((polygon) => polygon[0]);
+  return [];
+}
+
 function renderFallbackMap(mapData) {
   const overlay = $("#mapOverlay");
   overlay.classList.add("active");
@@ -235,6 +251,7 @@ function renderFallbackMap(mapData) {
     feature.properties.layerLabel = layer.label;
     const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
     group.dataset.mapLayer = layer.id;
+    applyLayerVisibility(group, layer);
 
     if (feature.geometry.type === "LineString") {
       const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -244,11 +261,17 @@ function renderFallbackMap(mapData) {
       group.append(path);
     }
 
-    if (feature.geometry.type === "Polygon") {
-      const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-      polygon.setAttribute("points", polygonFromCoords(feature.geometry.coordinates[0]));
-      polygon.setAttribute("class", "sanction-poly");
-      group.append(polygon);
+    if (feature.geometry.type === "Polygon" || feature.geometry.type === "MultiPolygon") {
+      polygonRings(feature.geometry).forEach((ring) => {
+        const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+        polygon.setAttribute("points", polygonFromCoords(ring));
+        polygon.setAttribute("class", "sanction-poly");
+        polygon.style.setProperty("fill", layer.color);
+        polygon.style.setProperty("stroke", layer.color);
+        polygon.style.setProperty("fill-opacity", sanctionOpacity(feature).toFixed(2));
+        polygon.style.setProperty("stroke-opacity", Math.min(sanctionOpacity(feature) + 0.42, 0.92).toFixed(2));
+        group.append(polygon);
+      });
     }
 
     if (feature.geometry.type === "Point") {
@@ -291,6 +314,7 @@ function renderProjectedOverlay() {
 
     const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
     group.dataset.mapLayer = layer.id;
+    applyLayerVisibility(group, layer);
 
     if (feature.geometry.type === "LineString") {
       const projected = feature.geometry.coordinates.map(mapProject).filter(Boolean);
@@ -315,20 +339,26 @@ function renderProjectedOverlay() {
       group.append(glow, path);
     }
 
-    if (feature.geometry.type === "Polygon") {
-      const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-      const projected = feature.geometry.coordinates[0].map(mapProject).filter(Boolean);
-      if (projected.length < 3) return null;
-      const points = projected
-        .map((coord) => coord.map((n) => n.toFixed(1)).join(","))
-        .join(" ");
-      polygon.setAttribute("points", points);
-      polygon.setAttribute("class", "projected-sanction-poly");
-      polygon.addEventListener("mouseenter", (event) => showSvgTooltip(event, feature));
-      polygon.addEventListener("mousemove", (event) => showSvgTooltip(event, feature));
-      polygon.addEventListener("mouseleave", hideSvgTooltip);
-      polygon.addEventListener("click", () => openAsset(feature));
-      group.append(polygon);
+    if (feature.geometry.type === "Polygon" || feature.geometry.type === "MultiPolygon") {
+      polygonRings(feature.geometry).forEach((ring) => {
+        const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+        const projected = ring.map(mapProject).filter(Boolean);
+        if (projected.length < 3) return;
+        const points = projected
+          .map((coord) => coord.map((n) => n.toFixed(1)).join(","))
+          .join(" ");
+        polygon.setAttribute("points", points);
+        polygon.setAttribute("class", "projected-sanction-poly");
+        polygon.style.setProperty("fill", layer.color);
+        polygon.style.setProperty("stroke", layer.color);
+        polygon.style.setProperty("fill-opacity", sanctionOpacity(feature).toFixed(2));
+        polygon.style.setProperty("stroke-opacity", Math.min(sanctionOpacity(feature) + 0.42, 0.92).toFixed(2));
+        polygon.addEventListener("mouseenter", (event) => showSvgTooltip(event, feature));
+        polygon.addEventListener("mousemove", (event) => showSvgTooltip(event, feature));
+        polygon.addEventListener("mouseleave", hideSvgTooltip);
+        polygon.addEventListener("click", () => openAsset(feature));
+        group.append(polygon);
+      });
     }
 
     if (feature.geometry.type === "Point") {
