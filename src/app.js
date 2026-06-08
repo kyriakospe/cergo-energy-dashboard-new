@@ -8,8 +8,7 @@ const layerConfig = [
   { id: "processing-plants", label: "Processing Plants", color: "#a995d7", kind: "point", checked: true },
   { id: "commodity-ports", label: "Commodity Ports", color: "#70c8bb", kind: "point", checked: true },
   { id: "commodity-hubs", label: "Commodity Hubs", color: "#d69563", kind: "point", checked: true },
-  { id: "critical-minerals", label: "Critical Minerals", color: "#c7d66f", kind: "point", checked: true },
-  { id: "sanctioned-countries", label: "Sanctioned Countries", color: "#d87398", kind: "polygon", checked: true }
+  { id: "critical-minerals", label: "Critical Minerals", color: "#c7d66f", kind: "point", checked: true }
 ];
 
 const tabs = ["energy", "commodities", "agriculture"];
