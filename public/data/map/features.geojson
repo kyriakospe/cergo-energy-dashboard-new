@@ -8,7 +8,7 @@
         "name": "Trans-Anatolian Gas Pipeline",
         "country": "Turkey",
         "status": "Operating",
-        "source": "GEM seed",
+        "source": "Global Energy Monitor seed data",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -40,7 +40,7 @@
         "name": "Power of Siberia",
         "country": "Russia / China",
         "status": "Operating",
-        "source": "GEM seed",
+        "source": "Global Energy Monitor seed data",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -76,7 +76,7 @@
         "name": "US Gulf Coast Pipeline Corridor",
         "country": "United States",
         "status": "Operating",
-        "source": "GEM seed",
+        "source": "Global Energy Monitor seed data",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -108,7 +108,7 @@
         "name": "Middle East to North Asia Tanker Lane",
         "country": "Global",
         "status": "Active",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -148,7 +148,7 @@
         "name": "Atlantic LNG Corridor",
         "country": "Global",
         "status": "Active",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -184,7 +184,7 @@
         "name": "Brazil Iron Ore Route",
         "country": "Brazil / China",
         "status": "Active",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -224,7 +224,7 @@
         "name": "Australia LNG to North Asia",
         "country": "Australia / Japan",
         "status": "Active",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -112878,7 +112878,7 @@
         "status": "Operating",
         "capacity": "30 mtpa",
         "commodity": "LNG export",
-        "source": "GEM seed",
+        "source": "Global Energy Monitor seed data",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -112900,7 +112900,7 @@
         "status": "Operating",
         "capacity": "77 mtpa",
         "commodity": "LNG export",
-        "source": "GEM seed",
+        "source": "Global Energy Monitor seed data",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -112922,7 +112922,7 @@
         "status": "Operating",
         "capacity": "8.9 mtpa",
         "commodity": "LNG export",
-        "source": "GEM seed",
+        "source": "Global Energy Monitor seed data",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -112943,7 +112943,7 @@
         "country": "Chile",
         "status": "Operating",
         "commodity": "Copper",
-        "source": "USGS/CERGO seed",
+        "source": "USGS seed data with public-resource review",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -112964,7 +112964,7 @@
         "country": "Australia",
         "status": "Operating",
         "commodity": "Iron ore",
-        "source": "USGS/CERGO seed",
+        "source": "USGS seed data with public-resource review",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -112985,7 +112985,7 @@
         "country": "Australia",
         "status": "Operating",
         "commodity": "Lithium",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113006,7 +113006,7 @@
         "country": "DR Congo",
         "status": "Operating",
         "commodity": "Copper",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113027,7 +113027,7 @@
         "country": "Oman / Iran",
         "status": "Active",
         "relevance": "Crude and LNG transit",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113048,7 +113048,7 @@
         "country": "Egypt",
         "status": "Active",
         "relevance": "Europe-Asia energy and goods transit",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113069,7 +113069,7 @@
         "country": "Malaysia / Indonesia",
         "status": "Active",
         "relevance": "Asia crude, LNG, and bulk trade",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113090,7 +113090,7 @@
         "country": "Saudi Arabia",
         "status": "Operating",
         "commodity": "Petrochemicals",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113111,7 +113111,7 @@
         "country": "Netherlands",
         "status": "Operating",
         "commodity": "Oil products",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113132,7 +113132,7 @@
         "country": "China",
         "status": "Operating",
         "commodity": "Iron ore and crude",
-        "source": "NGA WPI seed",
+        "source": "NGA World Port Index seed data",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113153,7 +113153,7 @@
         "country": "Brazil",
         "status": "Operating",
         "commodity": "Agriculture and oil products",
-        "source": "NGA WPI seed",
+        "source": "NGA World Port Index seed data",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113174,7 +113174,7 @@
         "country": "United States",
         "status": "Operating",
         "commodity": "WTI crude benchmark",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113195,7 +113195,7 @@
         "country": "Singapore",
         "status": "Operating",
         "commodity": "Oil products and bunkering",
-        "source": "CERGO curated",
+        "source": "Public resources and industry references",
         "updatedAt": "May 2026"
       },
       "geometry": {
@@ -113215,7 +113215,7 @@
         "name": "Nord Stream Corridor",
         "country": "Russia / Germany",
         "status": "Partially offline / damaged",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113251,7 +113251,7 @@
         "name": "Yamal-Europe Pipeline",
         "country": "Russia / Belarus / Poland / Germany",
         "status": "Constrained / route available",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113287,7 +113287,7 @@
         "name": "Druzhba Oil Pipeline",
         "country": "Russia / Belarus / Ukraine / EU",
         "status": "Operating / constrained by sanctions and war risk",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113323,7 +113323,7 @@
         "name": "Baku-Tbilisi-Ceyhan Pipeline",
         "country": "Azerbaijan / Georgia / Turkey",
         "status": "Operating",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113355,7 +113355,7 @@
         "name": "Trans Adriatic Pipeline",
         "country": "Greece / Albania / Italy",
         "status": "Operating",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113391,7 +113391,7 @@
         "name": "Trans-Mediterranean Pipeline",
         "country": "Algeria / Tunisia / Italy",
         "status": "Operating",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113423,7 +113423,7 @@
         "name": "Medgaz Pipeline",
         "country": "Algeria / Spain",
         "status": "Operating",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113451,7 +113451,7 @@
         "name": "Maghreb-Europe Pipeline",
         "country": "Algeria / Morocco / Spain",
         "status": "Partially constrained",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113483,7 +113483,7 @@
         "name": "West-East Gas Pipeline",
         "country": "China",
         "status": "Operating",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113519,7 +113519,7 @@
         "name": "Central Asia-China Gas Pipeline",
         "country": "Turkmenistan / Uzbekistan / Kazakhstan / China",
         "status": "Operating",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113555,7 +113555,7 @@
         "name": "East-West Crude Oil Pipeline",
         "country": "Saudi Arabia",
         "status": "Operating",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113587,7 +113587,7 @@
         "name": "TAPI Pipeline Route",
         "country": "Turkmenistan / Afghanistan / Pakistan / India",
         "status": "Planned / delayed",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113623,7 +113623,7 @@
         "name": "Trans-Saharan Gas Pipeline Route",
         "country": "Nigeria / Niger / Algeria",
         "status": "Proposed",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113655,7 +113655,7 @@
         "name": "Keystone Pipeline System",
         "country": "Canada / United States",
         "status": "Operating",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113695,7 +113695,7 @@
         "name": "Trans Mountain Pipeline",
         "country": "Canada",
         "status": "Operating / expanded",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113723,7 +113723,7 @@
         "name": "Southern Gas Corridor",
         "country": "Azerbaijan / Turkey / Europe",
         "status": "Operating",
-        "source": "CERGO curated from public pipeline references",
+        "source": "Public pipeline references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -113858,7 +113858,7 @@
         "name": "Strait of Gibraltar",
         "country": "Spain / Morocco",
         "status": "Active",
-        "source": "CERGO curated maritime chokepoints",
+        "source": "Public maritime chokepoint references",
         "updatedAt": "Jun 2026",
         "relevance": "Mediterranean-Atlantic oil, LNG, and container access"
       },
@@ -113877,7 +113877,7 @@
         "name": "Lombok Strait",
         "country": "Indonesia",
         "status": "Active",
-        "source": "CERGO curated maritime chokepoints",
+        "source": "Public maritime chokepoint references",
         "updatedAt": "Jun 2026",
         "relevance": "Deepwater alternative to Malacca"
       },
@@ -113896,7 +113896,7 @@
         "name": "Sunda Strait",
         "country": "Indonesia",
         "status": "Active",
-        "source": "CERGO curated maritime chokepoints",
+        "source": "Public maritime chokepoint references",
         "updatedAt": "Jun 2026",
         "relevance": "Indonesia archipelago shipping route"
       },
@@ -113915,7 +113915,7 @@
         "name": "Mozambique Channel",
         "country": "Mozambique / Madagascar",
         "status": "Active",
-        "source": "CERGO curated maritime chokepoints",
+        "source": "Public maritime chokepoint references",
         "updatedAt": "Jun 2026",
         "relevance": "East Africa LNG and tanker route"
       },
@@ -113934,7 +113934,7 @@
         "name": "English Channel",
         "country": "United Kingdom / France",
         "status": "Active",
-        "source": "CERGO curated maritime chokepoints",
+        "source": "Public maritime chokepoint references",
         "updatedAt": "Jun 2026",
         "relevance": "Northwest Europe products, LNG, and container traffic"
       },
@@ -114053,7 +114053,7 @@
         "name": "Gorgon LNG",
         "country": "Australia",
         "status": "Operating",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "Major LNG export terminal",
         "commodity": "LNG export"
@@ -114073,7 +114073,7 @@
         "name": "North West Shelf LNG",
         "country": "Australia",
         "status": "Operating",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "Major LNG export terminal",
         "commodity": "LNG export"
@@ -114093,7 +114093,7 @@
         "name": "Yamal LNG",
         "country": "Russia",
         "status": "Operating",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "Arctic LNG export",
         "commodity": "LNG export"
@@ -114113,7 +114113,7 @@
         "name": "Sakhalin-2 LNG",
         "country": "Russia",
         "status": "Operating",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "Far East LNG export",
         "commodity": "LNG export"
@@ -114133,7 +114133,7 @@
         "name": "Bintulu LNG",
         "country": "Malaysia",
         "status": "Operating",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "Major LNG export terminal",
         "commodity": "LNG export"
@@ -114153,7 +114153,7 @@
         "name": "Bonny LNG",
         "country": "Nigeria",
         "status": "Operating",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "Major LNG export terminal",
         "commodity": "LNG export"
@@ -114173,7 +114173,7 @@
         "name": "Rovuma LNG / Coral South",
         "country": "Mozambique",
         "status": "Operating / developing",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "East Africa LNG export",
         "commodity": "LNG export"
@@ -114193,7 +114193,7 @@
         "name": "Snohvit LNG",
         "country": "Norway",
         "status": "Operating",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "Arctic LNG export",
         "commodity": "LNG export"
@@ -114213,7 +114213,7 @@
         "name": "Zeebrugge LNG Terminal",
         "country": "Belgium",
         "status": "Operating",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "Northwest Europe LNG import and transshipment",
         "commodity": "LNG import"
@@ -114233,7 +114233,7 @@
         "name": "Gate LNG Terminal",
         "country": "Netherlands",
         "status": "Operating",
-        "source": "CERGO curated LNG terminal coverage",
+        "source": "Public LNG terminal references",
         "updatedAt": "Jun 2026",
         "capacity": "Northwest Europe LNG import",
         "commodity": "LNG import"
@@ -114253,7 +114253,7 @@
         "name": "Asia-Europe Container Route",
         "country": "Global",
         "status": "Active / Red Sea-sensitive",
-        "source": "CERGO curated shipping lanes",
+        "source": "Public maritime route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114297,7 +114297,7 @@
         "name": "Cape Diversion Route",
         "country": "Global",
         "status": "Active during Red Sea disruption",
-        "source": "CERGO curated shipping lanes",
+        "source": "Public maritime route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114337,7 +114337,7 @@
         "name": "Trans-Pacific Container Route",
         "country": "Global",
         "status": "Active",
-        "source": "CERGO curated shipping lanes",
+        "source": "Public maritime route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114373,7 +114373,7 @@
         "name": "US Gulf to Europe Products Route",
         "country": "Global",
         "status": "Active",
-        "source": "CERGO curated shipping lanes",
+        "source": "Public maritime route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114409,7 +114409,7 @@
         "name": "Brazil to Europe Atlantic Route",
         "country": "Global",
         "status": "Active",
-        "source": "CERGO curated shipping lanes",
+        "source": "Public maritime route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114449,7 +114449,7 @@
         "name": "Australia to North Asia Bulk Route",
         "country": "Global",
         "status": "Active",
-        "source": "CERGO curated shipping lanes",
+        "source": "Public maritime route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114485,7 +114485,7 @@
         "name": "US Gulf LNG to Europe",
         "country": "United States / Europe",
         "status": "Active",
-        "source": "CERGO curated trade routes",
+        "source": "Public commodity trade route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114521,7 +114521,7 @@
         "name": "Qatar LNG to Europe",
         "country": "Qatar / Europe",
         "status": "Active / route-risk sensitive",
-        "source": "CERGO curated trade routes",
+        "source": "Public commodity trade route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114557,7 +114557,7 @@
         "name": "Qatar LNG to North Asia",
         "country": "Qatar / Japan / Korea / China",
         "status": "Active",
-        "source": "CERGO curated trade routes",
+        "source": "Public commodity trade route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114597,7 +114597,7 @@
         "name": "West Africa Crude to Europe",
         "country": "Nigeria / Angola / Europe",
         "status": "Active",
-        "source": "CERGO curated trade routes",
+        "source": "Public commodity trade route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114633,7 +114633,7 @@
         "name": "Black Sea Grain Route",
         "country": "Ukraine / Mediterranean",
         "status": "Active / war-risk sensitive",
-        "source": "CERGO curated trade routes",
+        "source": "Public commodity trade route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114669,7 +114669,7 @@
         "name": "Chile Copper to North Asia",
         "country": "Chile / China",
         "status": "Active",
-        "source": "CERGO curated trade routes",
+        "source": "Public commodity trade route references",
         "updatedAt": "Jun 2026"
       },
       "geometry": {
@@ -114709,7 +114709,7 @@
         "name": "Port of Rotterdam",
         "country": "Netherlands",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Oil products, LNG, chemicals, bulk"
       },
@@ -114728,7 +114728,7 @@
         "name": "Port of Singapore",
         "country": "Singapore",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Oil products, bunkering, containers"
       },
@@ -114747,7 +114747,7 @@
         "name": "Port of Fujairah",
         "country": "United Arab Emirates",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Crude and refined products storage"
       },
@@ -114766,7 +114766,7 @@
         "name": "Port of Ras Tanura",
         "country": "Saudi Arabia",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Crude exports"
       },
@@ -114785,7 +114785,7 @@
         "name": "Port of Houston",
         "country": "United States",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Oil products, petrochemicals, LNG-linked Gulf trade"
       },
@@ -114804,7 +114804,7 @@
         "name": "Port of Corpus Christi",
         "country": "United States",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Crude, LNG, products"
       },
@@ -114823,7 +114823,7 @@
         "name": "Port of Newcastle",
         "country": "Australia",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Coal and bulk commodities"
       },
@@ -114842,7 +114842,7 @@
         "name": "Port Hedland",
         "country": "Australia",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Iron ore"
       },
@@ -114861,7 +114861,7 @@
         "name": "Port of Richards Bay",
         "country": "South Africa",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Coal and bulk commodities"
       },
@@ -114880,7 +114880,7 @@
         "name": "Port of Tubarao",
         "country": "Brazil",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Iron ore"
       },
@@ -114899,7 +114899,7 @@
         "name": "Port of Ningbo-Zhoushan",
         "country": "China",
         "status": "Operating",
-        "source": "CERGO curated port coverage",
+        "source": "Public port authority and shipping references",
         "updatedAt": "Jun 2026",
         "commodity": "Crude, iron ore, containers"
       },
@@ -114918,7 +114918,7 @@
         "name": "Henry Hub",
         "country": "United States",
         "status": "Operating",
-        "source": "CERGO curated commodity hubs",
+        "source": "Public commodity exchange and market hub references",
         "updatedAt": "Jun 2026",
         "commodity": "US natural gas benchmark"
       },
@@ -114937,7 +114937,7 @@
         "name": "TTF Gas Hub",
         "country": "Netherlands",
         "status": "Operating",
-        "source": "CERGO curated commodity hubs",
+        "source": "Public commodity exchange and market hub references",
         "updatedAt": "Jun 2026",
         "commodity": "European natural gas benchmark"
       },
@@ -114956,7 +114956,7 @@
         "name": "JKM LNG Marker",
         "country": "Japan / Korea",
         "status": "Benchmark",
-        "source": "CERGO curated commodity hubs",
+        "source": "Public commodity exchange and market hub references",
         "updatedAt": "Jun 2026",
         "commodity": "Northeast Asia LNG benchmark"
       },
@@ -114975,7 +114975,7 @@
         "name": "Fujairah Oil Storage Hub",
         "country": "United Arab Emirates",
         "status": "Operating",
-        "source": "CERGO curated commodity hubs",
+        "source": "Public commodity exchange and market hub references",
         "updatedAt": "Jun 2026",
         "commodity": "Oil products and bunkering"
       },
@@ -114994,7 +114994,7 @@
         "name": "ARA Oil Products Hub",
         "country": "Netherlands / Belgium",
         "status": "Operating",
-        "source": "CERGO curated commodity hubs",
+        "source": "Public commodity exchange and market hub references",
         "updatedAt": "Jun 2026",
         "commodity": "Amsterdam-Rotterdam-Antwerp products hub"
       },
@@ -115013,7 +115013,7 @@
         "name": "Shanghai Futures Exchange",
         "country": "China",
         "status": "Operating",
-        "source": "CERGO curated commodity hubs",
+        "source": "Public commodity exchange and market hub references",
         "updatedAt": "Jun 2026",
         "commodity": "Metals and energy futures"
       },
@@ -115032,7 +115032,7 @@
         "name": "LME London",
         "country": "United Kingdom",
         "status": "Operating",
-        "source": "CERGO curated commodity hubs",
+        "source": "Public commodity exchange and market hub references",
         "updatedAt": "Jun 2026",
         "commodity": "Base metals benchmark"
       },
@@ -115051,7 +115051,7 @@
         "name": "Chicago Board of Trade",
         "country": "United States",
         "status": "Operating",
-        "source": "CERGO curated commodity hubs",
+        "source": "Public commodity exchange and market hub references",
         "updatedAt": "Jun 2026",
         "commodity": "Agriculture futures benchmark"
       },
@@ -115070,7 +115070,7 @@
         "name": "Grasberg Copper-Gold Mine",
         "country": "Indonesia",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Copper and gold"
       },
@@ -115089,7 +115089,7 @@
         "name": "Collahuasi Copper Mine",
         "country": "Chile",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Copper"
       },
@@ -115108,7 +115108,7 @@
         "name": "Cerro Verde Copper Mine",
         "country": "Peru",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Copper"
       },
@@ -115127,7 +115127,7 @@
         "name": "Carajas Iron Ore Complex",
         "country": "Brazil",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Iron ore"
       },
@@ -115146,7 +115146,7 @@
         "name": "Sishen Iron Ore Mine",
         "country": "South Africa",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Iron ore"
       },
@@ -115165,7 +115165,7 @@
         "name": "Oyu Tolgoi Copper-Gold Mine",
         "country": "Mongolia",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Copper and gold"
       },
@@ -115184,7 +115184,7 @@
         "name": "Norilsk Nickel Complex",
         "country": "Russia",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Nickel, copper, palladium"
       },
@@ -115203,7 +115203,7 @@
         "name": "Jwaneng Diamond Mine",
         "country": "Botswana",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Diamonds"
       },
@@ -115222,7 +115222,7 @@
         "name": "Khumani / Kalahari Manganese Field",
         "country": "South Africa",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Manganese"
       },
@@ -115241,7 +115241,7 @@
         "name": "Antamina Mine",
         "country": "Peru",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Copper and zinc"
       },
@@ -115260,7 +115260,7 @@
         "name": "Salar de Atacama Lithium Brine",
         "country": "Chile",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Lithium"
       },
@@ -115279,7 +115279,7 @@
         "name": "Salar de Uyuni Lithium Resource",
         "country": "Bolivia",
         "status": "Developing",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Lithium"
       },
@@ -115298,7 +115298,7 @@
         "name": "Mt Marion Lithium",
         "country": "Australia",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Lithium"
       },
@@ -115317,7 +115317,7 @@
         "name": "Jadar Lithium Project",
         "country": "Serbia",
         "status": "Proposed / contested",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Lithium"
       },
@@ -115336,7 +115336,7 @@
         "name": "Tenke Fungurume",
         "country": "Democratic Republic of the Congo",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Copper and cobalt"
       },
@@ -115355,7 +115355,7 @@
         "name": "Mutanda Mining",
         "country": "Democratic Republic of the Congo",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Cobalt and copper"
       },
@@ -115374,7 +115374,7 @@
         "name": "Weda Bay Nickel",
         "country": "Indonesia",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Nickel"
       },
@@ -115393,7 +115393,7 @@
         "name": "Voisey's Bay Nickel Mine",
         "country": "Canada",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Nickel and cobalt"
       },
@@ -115412,7 +115412,7 @@
         "name": "Mountain Pass Rare Earth Mine",
         "country": "United States",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Rare earths"
       },
@@ -115431,7 +115431,7 @@
         "name": "Bayan Obo Rare Earth District",
         "country": "China",
         "status": "Operating",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Rare earths"
       },
@@ -115450,7 +115450,7 @@
         "name": "Graphite Fields Cabo Delgado",
         "country": "Mozambique",
         "status": "Operating / developing",
-        "source": "USGS / CERGO curated",
+        "source": "USGS mineral summaries and public mining references",
         "updatedAt": "Jun 2026",
         "commodity": "Graphite"
       },
@@ -115469,7 +115469,7 @@
         "name": "Ras Laffan Industrial City",
         "country": "Qatar",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "LNG and gas processing"
       },
@@ -115488,7 +115488,7 @@
         "name": "Ruwais Refining Complex",
         "country": "United Arab Emirates",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "Refining and petrochemicals"
       },
@@ -115507,7 +115507,7 @@
         "name": "Jamnagar Refinery Complex",
         "country": "India",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "Refining and petrochemicals"
       },
@@ -115526,7 +115526,7 @@
         "name": "Ulsan Refining and Petrochemical Complex",
         "country": "South Korea",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "Refining and petrochemicals"
       },
@@ -115545,7 +115545,7 @@
         "name": "Ningbo Petrochemical Complex",
         "country": "China",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "Refining and petrochemicals"
       },
@@ -115564,7 +115564,7 @@
         "name": "Jurong Island Petrochemical Complex",
         "country": "Singapore",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "Refining and petrochemicals"
       },
@@ -115583,7 +115583,7 @@
         "name": "Antwerp Refining and Chemical Cluster",
         "country": "Belgium",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "Refining and petrochemicals"
       },
@@ -115602,7 +115602,7 @@
         "name": "Baytown Refinery and Chemical Complex",
         "country": "United States",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "Refining and petrochemicals"
       },
@@ -115621,7 +115621,7 @@
         "name": "Kwinana Lithium Hydroxide Plant",
         "country": "Australia",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "Lithium processing"
       },
@@ -115640,7 +115640,7 @@
         "name": "Morowali Nickel Industrial Park",
         "country": "Indonesia",
         "status": "Operating",
-        "source": "CERGO curated processing assets",
+        "source": "Public refinery, petrochemical, and processing references",
         "updatedAt": "Jun 2026",
         "commodity": "Nickel processing"
       },

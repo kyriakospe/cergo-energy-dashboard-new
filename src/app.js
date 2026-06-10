@@ -133,7 +133,7 @@ function assetSummary(feature) {
     country: props.country,
     status: props.status,
     relevance: props.relevance || props.commodity || props.capacity || "Energy and commodities infrastructure",
-    source: `${props.source || "CERGO"}${props.updatedAt ? `, ${props.updatedAt}` : ""}`
+    source: `${props.source || "Public resources"}${props.updatedAt ? `, ${props.updatedAt}` : ""}`
   };
 }
 
