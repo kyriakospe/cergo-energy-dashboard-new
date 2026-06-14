@@ -5,12 +5,11 @@
       "name": "WTI Crude Oil",
       "category": "energy",
       "symbol": "CL",
-      "price": 84.88,
+      "price": 81.07,
       "currency": "$",
-      "changePct1D": -3.23,
-      "changeAbs1D": -2.83,
+      "changePct1D": -4.49,
+      "changeAbs1D": -3.81,
       "sparkline": [
-        98.07,
         102.18,
         101.02,
         101.17,
@@ -33,9 +32,10 @@
         88.2,
         90.03,
         87.71,
-        84.88
+        84.88,
+        81.07
       ],
-      "updatedAt": "2026-06-12 20:59 UTC",
+      "updatedAt": "2026-06-14 23:28 UTC",
       "source": "Yahoo Finance / NYMEX"
     },
     {
@@ -43,12 +43,11 @@
       "name": "Brent Crude Oil",
       "category": "energy",
       "symbol": "BZ",
-      "price": 87.33,
+      "price": 83.93,
       "currency": "$",
-      "changePct1D": -3.37,
-      "changeAbs1D": -3.05,
+      "changePct1D": -3.89,
+      "changeAbs1D": -3.4,
       "sparkline": [
-        104.21,
         107.77,
         105.63,
         105.72,
@@ -71,9 +70,10 @@
         91.45,
         93.1,
         90.38,
-        87.33
+        87.33,
+        83.93
       ],
-      "updatedAt": "2026-06-12 20:59 UTC",
+      "updatedAt": "2026-06-14 23:27 UTC",
       "source": "Yahoo Finance / ICE"
     },
     {
@@ -81,12 +81,11 @@
       "name": "Natural Gas",
       "category": "energy",
       "symbol": "NG",
-      "price": 3.12,
+      "price": 3.067,
       "currency": "$",
-      "changePct1D": 1.07,
-      "changeAbs1D": 0.033,
+      "changePct1D": -1.7,
+      "changeAbs1D": -0.053,
       "sparkline": [
-        2.91,
         2.843,
         2.864,
         2.894,
@@ -109,9 +108,10 @@
         3.14,
         3.185,
         3.087,
-        3.12
+        3.12,
+        3.067
       ],
-      "updatedAt": "2026-06-12 20:59 UTC",
+      "updatedAt": "2026-06-14 23:28 UTC",
       "source": "Yahoo Finance / NYMEX"
     },
     {
@@ -119,12 +119,11 @@
       "name": "Gasoline",
       "category": "energy",
       "symbol": "RB",
-      "price": 2.9867,
+      "price": 2.9139,
       "currency": "$",
-      "changePct1D": -3.7,
-      "changeAbs1D": -0.1147,
+      "changePct1D": -4.46,
+      "changeAbs1D": -0.1359,
       "sparkline": [
-        3.5998,
         3.6977,
         3.6187,
         3.6057,
@@ -147,9 +146,10 @@
         3.0211,
         3.1099,
         3.1014,
-        2.9867
+        3.0498,
+        2.9139
       ],
-      "updatedAt": "2026-06-12 20:59 UTC",
+      "updatedAt": "2026-06-14 23:28 UTC",
       "source": "Yahoo Finance / NYMEX"
     },
     {
@@ -157,12 +157,11 @@
       "name": "Heating Oil",
       "category": "energy",
       "symbol": "HO",
-      "price": 3.3639,
+      "price": 3.2576,
       "currency": "$",
-      "changePct1D": -4.25,
-      "changeAbs1D": -0.1492,
+      "changePct1D": -4.31,
+      "changeAbs1D": -0.1468,
       "sparkline": [
-        3.9686,
         4.1588,
         3.9667,
         3.9056,
@@ -185,9 +184,10 @@
         3.5418,
         3.6126,
         3.5131,
-        3.3639
+        3.4044,
+        3.2576
       ],
-      "updatedAt": "2026-06-12 20:59 UTC",
+      "updatedAt": "2026-06-14 23:25 UTC",
       "source": "Yahoo Finance / NYMEX"
     }
   ],
@@ -197,12 +197,11 @@
       "name": "Gold",
       "category": "commodities",
       "symbol": "GC",
-      "price": 4238.8,
+      "price": 4304.9,
       "currency": "$",
-      "changePct1D": 3.63,
-      "changeAbs1D": 148.5,
+      "changePct1D": 2.13,
+      "changeAbs1D": 89.9,
       "sparkline": [
-        4718.7002,
         4677.6001,
         4697.7002,
         4678.1001,
@@ -225,9 +224,10 @@
         4260.0,
         4108.2002,
         4090.3,
-        4238.7998
+        4215.0,
+        4304.8999
       ],
-      "updatedAt": "2026-06-12 20:59 UTC",
+      "updatedAt": "2026-06-14 23:28 UTC",
       "source": "Yahoo Finance / COMEX"
     },
     {
@@ -235,12 +235,11 @@
       "name": "Silver",
       "category": "commodities",
       "symbol": "SI",
-      "price": 67.974,
+      "price": 70.05,
       "currency": "$",
-      "changePct1D": 6.4,
-      "changeAbs1D": 4.089,
+      "changePct1D": 3.23,
+      "changeAbs1D": 2.191,
       "sparkline": [
-        85.485,
         85.13,
         88.888,
         84.912,
@@ -263,9 +262,10 @@
         65.094,
         64.599,
         63.885,
-        67.974
+        67.859,
+        70.05
       ],
-      "updatedAt": "2026-06-12 20:59 UTC",
+      "updatedAt": "2026-06-14 23:28 UTC",
       "source": "Yahoo Finance / COMEX"
     },
     {
@@ -273,12 +273,11 @@
       "name": "Copper",
       "category": "commodities",
       "symbol": "HG",
-      "price": 6.445,
+      "price": 6.509,
       "currency": "$",
-      "changePct1D": 2.97,
-      "changeAbs1D": 0.186,
+      "changePct1D": 1.22,
+      "changeAbs1D": 0.0785,
       "sparkline": [
-        6.4135,
         6.485,
         6.6355,
         6.5675,
@@ -301,9 +300,10 @@
         6.3025,
         6.249,
         6.259,
-        6.445
+        6.4305,
+        6.509
       ],
-      "updatedAt": "2026-06-12 20:59 UTC",
+      "updatedAt": "2026-06-14 23:28 UTC",
       "source": "Yahoo Finance / COMEX"
     },
     {
@@ -311,12 +311,11 @@
       "name": "Platinum",
       "category": "commodities",
       "symbol": "PL",
-      "price": 1712.2,
+      "price": 1759.0,
       "currency": "$",
-      "changePct1D": 2.98,
-      "changeAbs1D": 49.6,
+      "changePct1D": 2.91,
+      "changeAbs1D": 49.8,
       "sparkline": [
-        2115.5,
         2110.0,
         2187.1001,
         2083.5,
@@ -339,9 +338,10 @@
         1708.6,
         1688.0,
         1662.6,
-        1712.2
+        1709.2,
+        1759.0
       ],
-      "updatedAt": "2026-06-12 20:59 UTC",
+      "updatedAt": "2026-06-14 23:28 UTC",
       "source": "Yahoo Finance / NYMEX"
     },
     {
@@ -349,12 +349,11 @@
       "name": "Palladium",
       "category": "commodities",
       "symbol": "PA",
-      "price": 1291.5,
+      "price": 1326.0,
       "currency": "$",
-      "changePct1D": 4.61,
-      "changeAbs1D": 56.9,
+      "changePct1D": 3.9,
+      "changeAbs1D": 49.8,
       "sparkline": [
-        1513.8,
         1485.7,
         1531.0,
         1456.6,
@@ -377,9 +376,10 @@
         1213.6,
         1230.8,
         1234.6,
-        1291.5
+        1276.2,
+        1326.0
       ],
-      "updatedAt": "2026-06-12 20:55 UTC",
+      "updatedAt": "2026-06-14 23:23 UTC",
       "source": "Yahoo Finance / NYMEX"
     }
   ],
