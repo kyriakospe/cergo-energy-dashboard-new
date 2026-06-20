@@ -26,9 +26,9 @@
       "value": 1.89
     },
     {
-      "name": "Brent Crude Oil",
-      "group": "energy",
-      "value": -17.61
+      "name": "Platinum",
+      "group": "commodities",
+      "value": -6.91
     },
     {
       "name": "WTI Crude Oil",
@@ -110,9 +110,9 @@
       "value": 2.33
     },
     {
-      "name": "Brent Crude Oil",
-      "group": "energy",
-      "value": -26.58
+      "name": "Platinum",
+      "group": "commodities",
+      "value": -18.65
     },
     {
       "name": "Heating Oil",
@@ -211,11 +211,6 @@
   ],
   "YTD": [
     {
-      "name": "Gasoline",
-      "group": "energy",
-      "value": 71.25
-    },
-    {
       "name": "Heating Oil",
       "group": "energy",
       "value": 51.26
@@ -226,14 +221,19 @@
       "value": 36.7
     },
     {
-      "name": "Brent Crude Oil",
-      "group": "energy",
-      "value": 32.77
-    },
-    {
       "name": "Wheat",
       "group": "agriculture",
       "value": 16.94
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": 10.0
+    },
+    {
+      "name": "Copper",
+      "group": "commodities",
+      "value": 9.09
     },
     {
       "name": "Silver",
