@@ -152,6 +152,11 @@
       "value": 6.83
     },
     {
+      "name": "Palladium",
+      "group": "commodities",
+      "value": -19.46
+    },
+    {
       "name": "Platinum",
       "group": "commodities",
       "value": -22.85
@@ -160,11 +165,6 @@
       "name": "Silver",
       "group": "commodities",
       "value": -24.91
-    },
-    {
-      "name": "CRB Index",
-      "group": "indices",
-      "value": -50.0
     }
   ],
   "6M": [
@@ -194,9 +194,9 @@
       "value": 31.72
     },
     {
-      "name": "CRB Index",
-      "group": "indices",
-      "value": -38.89
+      "name": "Platinum",
+      "group": "commodities",
+      "value": -37.58
     },
     {
       "name": "Silver",
@@ -278,6 +278,11 @@
       "value": 38.65
     },
     {
+      "name": "Palladium",
+      "group": "commodities",
+      "value": -5.29
+    },
+    {
       "name": "Natural Gas",
       "group": "energy",
       "value": -5.49
@@ -286,11 +291,6 @@
       "name": "Sugar",
       "group": "agriculture",
       "value": -9.11
-    },
-    {
-      "name": "CRB Index",
-      "group": "indices",
-      "value": -78.0
     }
   ],
   "3Y": [
@@ -320,14 +320,14 @@
       "value": 49.11
     },
     {
+      "name": "Corn",
+      "group": "agriculture",
+      "value": -9.31
+    },
+    {
       "name": "Soybeans",
       "group": "agriculture",
       "value": -16.22
-    },
-    {
-      "name": "CRB Index",
-      "group": "indices",
-      "value": -38.89
     },
     {
       "name": "Sugar",
@@ -362,14 +362,14 @@
       "value": 85.09
     },
     {
+      "name": "Sugar",
+      "group": "agriculture",
+      "value": -16.47
+    },
+    {
       "name": "Natural Gas",
       "group": "energy",
       "value": -26.55
-    },
-    {
-      "name": "CRB Index",
-      "group": "indices",
-      "value": -38.89
     },
     {
       "name": "Palladium",
@@ -404,6 +404,11 @@
       "value": 145.39
     },
     {
+      "name": "Cotton",
+      "group": "agriculture",
+      "value": 10.93
+    },
+    {
       "name": "Natural Gas",
       "group": "energy",
       "value": 5.86
@@ -412,11 +417,6 @@
       "name": "Sugar",
       "group": "agriculture",
       "value": -25.79
-    },
-    {
-      "name": "CRB Index",
-      "group": "indices",
-      "value": -38.89
     }
   ]
 }
