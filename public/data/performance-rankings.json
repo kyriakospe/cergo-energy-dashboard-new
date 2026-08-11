@@ -1,182 +1,182 @@
 {
   "MTD": [
     {
-      "name": "Brent Crude Oil",
-      "group": "energy",
-      "value": 12.03
+      "name": "CRB Index",
+      "group": "indices",
+      "value": 10.0
     },
     {
-      "name": "Heating Oil",
+      "name": "Brent Crude Oil",
       "group": "energy",
-      "value": 11.52
+      "value": 9.73
     },
     {
       "name": "Sugar",
       "group": "agriculture",
+      "value": 9.44
+    },
+    {
+      "name": "Heating Oil",
+      "group": "energy",
       "value": 9.17
     },
     {
       "name": "WTI Crude Oil",
       "group": "energy",
-      "value": 8.07
+      "value": 5.9
     },
     {
-      "name": "Corn",
+      "name": "Wheat",
       "group": "agriculture",
-      "value": 5.7
-    },
-    {
-      "name": "Palladium",
-      "group": "commodities",
-      "value": 0.38
-    },
-    {
-      "name": "Copper",
-      "group": "commodities",
-      "value": -0.15
+      "value": -1.09
     },
     {
       "name": "Feeder Cattle",
       "group": "agriculture",
-      "value": -0.26
+      "value": -1.56
+    },
+    {
+      "name": "Live Cattle",
+      "group": "agriculture",
+      "value": -1.73
     }
   ],
   "1M": [
     {
       "name": "Heating Oil",
       "group": "energy",
-      "value": 19.15
+      "value": 16.63
     },
     {
       "name": "Brent Crude Oil",
       "group": "energy",
-      "value": 17.1
+      "value": 14.7
     },
     {
       "name": "WTI Crude Oil",
       "group": "energy",
-      "value": 16.97
+      "value": 14.62
     },
     {
       "name": "Sugar",
       "group": "agriculture",
-      "value": 11.16
+      "value": 11.42
     },
     {
-      "name": "Platinum",
-      "group": "commodities",
-      "value": 9.76
+      "name": "CRB Index",
+      "group": "indices",
+      "value": 10.0
     },
     {
-      "name": "Feeder Cattle",
+      "name": "Live Cattle",
       "group": "agriculture",
-      "value": -1.52
+      "value": -3.19
     },
     {
       "name": "Gasoline",
       "group": "energy",
-      "value": -2.82
+      "value": -4.42
     },
     {
       "name": "Natural Gas",
       "group": "energy",
-      "value": -6.26
+      "value": -4.83
     }
   ],
   "QTD": [
     {
       "name": "Heating Oil",
       "group": "energy",
-      "value": 28.36
+      "value": 25.64
     },
     {
       "name": "Brent Crude Oil",
       "group": "energy",
-      "value": 23.64
+      "value": 21.1
     },
     {
       "name": "WTI Crude Oil",
       "group": "energy",
-      "value": 18.58
+      "value": 16.2
     },
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": 12.66
+      "value": 11.68
     },
     {
       "name": "Silver",
       "group": "commodities",
-      "value": 12.18
+      "value": 11.62
     },
     {
       "name": "Feeder Cattle",
       "group": "agriculture",
-      "value": -3.12
+      "value": -4.38
     },
     {
       "name": "Gasoline",
       "group": "energy",
-      "value": -3.43
+      "value": -5.02
     },
     {
       "name": "Natural Gas",
       "group": "energy",
-      "value": -15.07
+      "value": -13.78
     }
   ],
   "3M": [
     {
       "name": "Sugar",
       "group": "agriculture",
-      "value": 12.59
-    },
-    {
-      "name": "Heating Oil",
-      "group": "energy",
-      "value": 8.58
+      "value": 12.87
     },
     {
       "name": "Copper",
       "group": "commodities",
-      "value": 6.85
+      "value": 6.46
+    },
+    {
+      "name": "Heating Oil",
+      "group": "energy",
+      "value": 6.29
     },
     {
       "name": "Wheat",
       "group": "agriculture",
-      "value": 6.26
+      "value": 4.16
     },
     {
-      "name": "Corn",
-      "group": "agriculture",
-      "value": 1.53
-    },
-    {
-      "name": "Platinum",
-      "group": "commodities",
-      "value": -13.25
+      "name": "Natural Gas",
+      "group": "energy",
+      "value": 1.49
     },
     {
       "name": "Gasoline",
       "group": "energy",
-      "value": -17.76
+      "value": -19.11
     },
     {
       "name": "Silver",
       "group": "commodities",
-      "value": -18.84
+      "value": -19.25
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -50.0
     }
   ],
   "6M": [
     {
       "name": "Heating Oil",
       "group": "energy",
-      "value": 75.17
+      "value": 71.47
     },
     {
       "name": "Gasoline",
       "group": "energy",
-      "value": 46.07
+      "value": 43.67
     },
     {
       "name": "Cotton",
@@ -186,237 +186,237 @@
     {
       "name": "WTI Crude Oil",
       "group": "energy",
-      "value": 29.79
+      "value": 27.18
     },
     {
       "name": "Brent Crude Oil",
       "group": "energy",
-      "value": 28.93
-    },
-    {
-      "name": "Platinum",
-      "group": "commodities",
-      "value": -15.79
+      "value": 26.27
     },
     {
       "name": "Palladium",
       "group": "commodities",
-      "value": -20.41
+      "value": -20.87
     },
     {
       "name": "Silver",
       "group": "commodities",
-      "value": -20.49
+      "value": -20.89
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -38.89
     }
   ],
   "YTD": [
     {
       "name": "Heating Oil",
       "group": "energy",
-      "value": 103.25
+      "value": 98.95
     },
     {
       "name": "Gasoline",
       "group": "energy",
-      "value": 70.55
+      "value": 67.74
     },
     {
       "name": "WTI Crude Oil",
       "group": "energy",
-      "value": 49.19
+      "value": 46.19
     },
     {
       "name": "Brent Crude Oil",
       "group": "energy",
-      "value": 46.64
+      "value": 43.62
     },
     {
-      "name": "Wheat",
-      "group": "agriculture",
-      "value": 24.61
+      "name": "S&P GSCI Index",
+      "group": "indices",
+      "value": 22.77
     },
     {
       "name": "Natural Gas",
       "group": "energy",
-      "value": -17.73
+      "value": -16.48
     },
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": -21.13
+      "value": -21.81
     },
     {
       "name": "Palladium",
       "group": "commodities",
-      "value": -25.39
+      "value": -25.82
     }
   ],
   "1Y": [
     {
       "name": "Heating Oil",
       "group": "energy",
-      "value": 85.75
+      "value": 81.82
     },
     {
       "name": "Silver",
       "group": "commodities",
-      "value": 69.85
+      "value": 68.99
     },
     {
       "name": "Copper",
       "group": "commodities",
-      "value": 49.86
+      "value": 49.31
     },
     {
       "name": "Gasoline",
       "group": "energy",
-      "value": 39.03
+      "value": 36.74
     },
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": 33.98
-    },
-    {
-      "name": "Feeder Cattle",
-      "group": "agriculture",
-      "value": 0.6
+      "value": 32.82
     },
     {
       "name": "Live Cattle",
       "group": "agriculture",
-      "value": -2.29
+      "value": -2.09
     },
     {
       "name": "Natural Gas",
       "group": "energy",
-      "value": -7.83
+      "value": -6.42
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -78.0
     }
   ],
   "3Y": [
     {
       "name": "Silver",
       "group": "commodities",
-      "value": 187.23
+      "value": 185.78
     },
     {
       "name": "Gold",
       "group": "commodities",
-      "value": 130.67
+      "value": 131.29
     },
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": 97.79
+      "value": 96.08
     },
     {
       "name": "Copper",
       "group": "commodities",
-      "value": 77.23
+      "value": 76.58
     },
     {
       "name": "Feeder Cattle",
       "group": "agriculture",
-      "value": 40.57
-    },
-    {
-      "name": "Natural Gas",
-      "group": "energy",
-      "value": -6.86
+      "value": 40.17
     },
     {
       "name": "Soybeans",
       "group": "agriculture",
-      "value": -16.6
+      "value": -17.02
     },
     {
       "name": "Sugar",
       "group": "agriculture",
-      "value": -30.24
+      "value": -30.07
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -50.0
     }
   ],
   "5Y": [
     {
       "name": "Silver",
       "group": "commodities",
-      "value": 158.14
+      "value": 156.83
     },
     {
       "name": "Gold",
       "group": "commodities",
-      "value": 145.88
+      "value": 146.54
     },
     {
       "name": "Feeder Cattle",
       "group": "agriculture",
-      "value": 120.74
+      "value": 117.45
     },
     {
       "name": "Heating Oil",
       "group": "energy",
-      "value": 103.1
+      "value": 98.81
     },
     {
       "name": "Live Cattle",
       "group": "agriculture",
-      "value": 89.27
-    },
-    {
-      "name": "Soybeans",
-      "group": "agriculture",
-      "value": -15.94
+      "value": 83.56
     },
     {
       "name": "Natural Gas",
       "group": "energy",
-      "value": -33.43
+      "value": -32.42
     },
     {
       "name": "Palladium",
       "group": "commodities",
-      "value": -47.86
+      "value": -48.16
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -50.0
     }
   ],
   "10Y": [
     {
       "name": "Gold",
       "group": "commodities",
-      "value": 230.6
+      "value": 231.49
     },
     {
       "name": "Silver",
       "group": "commodities",
-      "value": 226.51
-    },
-    {
-      "name": "Heating Oil",
-      "group": "energy",
-      "value": 205.7
+      "value": 224.86
     },
     {
       "name": "Copper",
       "group": "commodities",
-      "value": 204.89
+      "value": 203.77
+    },
+    {
+      "name": "Heating Oil",
+      "group": "energy",
+      "value": 199.24
     },
     {
       "name": "Feeder Cattle",
       "group": "agriculture",
-      "value": 135.84
-    },
-    {
-      "name": "Soybeans",
-      "group": "agriculture",
-      "value": 15.41
+      "value": 132.76
     },
     {
       "name": "Natural Gas",
       "group": "energy",
-      "value": 8.04
+      "value": 9.68
     },
     {
       "name": "Sugar",
       "group": "agriculture",
-      "value": -15.61
+      "value": -15.41
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -50.0
     }
   ]
 }
