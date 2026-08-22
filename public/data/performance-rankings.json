@@ -63,9 +63,9 @@
       "value": 11.51
     },
     {
-      "name": "Cotton",
-      "group": "agriculture",
-      "value": 9.01
+      "name": "CRB Index",
+      "group": "indices",
+      "value": 10.0
     },
     {
       "name": "Gasoline",
@@ -152,11 +152,6 @@
       "value": 3.86
     },
     {
-      "name": "Brent Crude Oil",
-      "group": "energy",
-      "value": -10.12
-    },
-    {
       "name": "WTI Crude Oil",
       "group": "energy",
       "value": -11.4
@@ -165,6 +160,11 @@
       "name": "Live Cattle",
       "group": "agriculture",
       "value": -11.93
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -50.0
     }
   ],
   "6M": [
@@ -194,11 +194,6 @@
       "value": 31.13
     },
     {
-      "name": "Platinum",
-      "group": "commodities",
-      "value": -13.02
-    },
-    {
       "name": "Silver",
       "group": "commodities",
       "value": -15.58
@@ -207,6 +202,11 @@
       "name": "Palladium",
       "group": "commodities",
       "value": -23.99
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -38.89
     }
   ],
   "YTD": [
@@ -278,11 +278,6 @@
       "value": 41.48
     },
     {
-      "name": "Natural Gas",
-      "group": "energy",
-      "value": 0.76
-    },
-    {
       "name": "Feeder Cattle",
       "group": "agriculture",
       "value": -5.91
@@ -291,6 +286,11 @@
       "name": "Live Cattle",
       "group": "agriculture",
       "value": -6.49
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -78.0
     }
   ],
   "3Y": [
@@ -320,11 +320,6 @@
       "value": 44.24
     },
     {
-      "name": "Corn",
-      "group": "agriculture",
-      "value": 2.27
-    },
-    {
       "name": "Soybeans",
       "group": "agriculture",
       "value": -8.36
@@ -333,6 +328,11 @@
       "name": "Sugar",
       "group": "agriculture",
       "value": -24.74
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -47.62
     }
   ],
   "5Y": [
@@ -362,14 +362,14 @@
       "value": 89.98
     },
     {
-      "name": "Corn",
-      "group": "agriculture",
-      "value": -14.34
-    },
-    {
       "name": "Natural Gas",
       "group": "energy",
       "value": -28.01
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -47.62
     },
     {
       "name": "Palladium",
@@ -404,11 +404,6 @@
       "value": 127.68
     },
     {
-      "name": "Soybeans",
-      "group": "agriculture",
-      "value": 18.33
-    },
-    {
       "name": "Natural Gas",
       "group": "energy",
       "value": 3.51
@@ -417,6 +412,11 @@
       "name": "Sugar",
       "group": "agriculture",
       "value": -13.76
+    },
+    {
+      "name": "CRB Index",
+      "group": "indices",
+      "value": -47.62
     }
   ]
 }
