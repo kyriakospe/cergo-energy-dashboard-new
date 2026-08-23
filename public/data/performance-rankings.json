@@ -21,9 +21,9 @@
       "value": 15.5
     },
     {
-      "name": "WTI Crude Oil",
-      "group": "energy",
-      "value": 12.64
+      "name": "CRB Index",
+      "group": "indices",
+      "value": 10.0
     },
     {
       "name": "Palladium",
@@ -95,11 +95,6 @@
       "value": 31.12
     },
     {
-      "name": "WTI Crude Oil",
-      "group": "energy",
-      "value": 23.59
-    },
-    {
       "name": "Platinum",
       "group": "commodities",
       "value": 20.26
@@ -108,6 +103,11 @@
       "name": "Silver",
       "group": "commodities",
       "value": 19.54
+    },
+    {
+      "name": "Wheat",
+      "group": "agriculture",
+      "value": 16.64
     },
     {
       "name": "Live Cattle",
@@ -189,9 +189,9 @@
       "value": 31.54
     },
     {
-      "name": "WTI Crude Oil",
-      "group": "energy",
-      "value": 31.13
+      "name": "Sugar",
+      "group": "agriculture",
+      "value": 23.08
     },
     {
       "name": "Silver",
@@ -226,14 +226,14 @@
       "value": 55.5
     },
     {
-      "name": "WTI Crude Oil",
-      "group": "energy",
-      "value": 55.49
-    },
-    {
       "name": "Wheat",
       "group": "agriculture",
       "value": 34.99
+    },
+    {
+      "name": "S&P GSCI Index",
+      "group": "indices",
+      "value": 28.9
     },
     {
       "name": "Platinum",
