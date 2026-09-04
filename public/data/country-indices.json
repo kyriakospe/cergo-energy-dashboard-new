@@ -4,7 +4,7 @@
     "index": "Bovespa",
     "exchange": "B3",
     "value": 185188.12,
-    "changePct1D": 3.04,
+    "changePct1D": -0.01,
     "flagCss": "linear-gradient(135deg, #159447 0 100%)",
     "source": "Yahoo Finance",
     "updatedAt": "2026-09-03 20:16 UTC"
@@ -42,18 +42,18 @@
     "country": "Norway",
     "index": "OSEBX",
     "exchange": "Oslo",
-    "value": 2105.68,
-    "changePct1D": -0.31,
+    "value": 2102.49,
+    "changePct1D": -0.15,
     "flagCss": "linear-gradient(90deg, #bd1f2d 0 100%)",
     "source": "Yahoo Finance",
-    "updatedAt": "2026-09-03 16:05 UTC"
+    "updatedAt": "2026-09-04 11:07 UTC"
   },
   {
     "country": "Canada",
     "index": "TSX",
     "exchange": "TMX",
     "value": 36633.12,
-    "changePct1D": 2.25,
+    "changePct1D": 1.5,
     "flagCss": "linear-gradient(90deg, #d7252f 0 25%, #fff 25% 75%, #d7252f 75%)",
     "source": "Yahoo Finance",
     "updatedAt": "2026-09-03 20:20 UTC"
@@ -62,10 +62,10 @@
     "country": "Australia",
     "index": "ASX 200",
     "exchange": "ASX",
-    "value": 8998.0,
-    "changePct1D": 0.22,
+    "value": 9005.9,
+    "changePct1D": -0.16,
     "flagCss": "linear-gradient(#1c3f8e 0 100%)",
     "source": "Yahoo Finance",
-    "updatedAt": "2026-09-04 04:17 UTC"
+    "updatedAt": "2026-09-04 07:05 UTC"
   }
 ]
