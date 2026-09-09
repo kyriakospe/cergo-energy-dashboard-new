@@ -5,10 +5,10 @@
       "name": "WTI Crude Oil",
       "category": "energy",
       "symbol": "CL",
-      "price": 94.39,
+      "price": 95.79,
       "currency": "$",
-      "changePct1D": 1.46,
-      "changeAbs1D": 1.36,
+      "changePct1D": 2.97,
+      "changeAbs1D": 2.76,
       "sparkline": [
         77.29,
         78.18,
@@ -33,9 +33,9 @@
         91.3,
         91.48,
         93.03,
-        94.39
+        95.79
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:48 UTC",
       "source": "Yahoo Finance / NYMEX"
     },
     {
@@ -43,10 +43,10 @@
       "name": "Brent Crude Oil",
       "category": "energy",
       "symbol": "BZ",
-      "price": 99.7,
+      "price": 100.71,
       "currency": "$",
-      "changePct1D": 1.82,
-      "changeAbs1D": 1.78,
+      "changePct1D": 2.85,
+      "changeAbs1D": 2.79,
       "sparkline": [
         82.49,
         83.55,
@@ -71,9 +71,9 @@
         95.52,
         96.28,
         97.92,
-        99.7
+        100.71
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:48 UTC",
       "source": "Yahoo Finance / ICE"
     },
     {
@@ -81,10 +81,10 @@
       "name": "Natural Gas",
       "category": "energy",
       "symbol": "NG",
-      "price": 2.891,
+      "price": 2.847,
       "currency": "$",
-      "changePct1D": -0.86,
-      "changeAbs1D": -0.025,
+      "changePct1D": -2.37,
+      "changeAbs1D": -0.069,
       "sparkline": [
         2.64,
         2.662,
@@ -109,9 +109,9 @@
         2.913,
         2.975,
         2.916,
-        2.891
+        2.847
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:48 UTC",
       "source": "Yahoo Finance / NYMEX"
     },
     {
@@ -119,10 +119,10 @@
       "name": "Gasoline",
       "category": "energy",
       "symbol": "RB",
-      "price": 3.0923,
+      "price": 3.0637,
       "currency": "$",
-      "changePct1D": -4.93,
-      "changeAbs1D": -0.1602,
+      "changePct1D": -5.8,
+      "changeAbs1D": -0.1888,
       "sparkline": [
         2.9385,
         2.9853,
@@ -147,9 +147,9 @@
         3.1349,
         3.2146,
         3.2525,
-        3.0923
+        3.0637
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:49 UTC",
       "source": "Yahoo Finance / NYMEX"
     },
     {
@@ -157,10 +157,10 @@
       "name": "Heating Oil",
       "category": "energy",
       "symbol": "HO",
-      "price": 4.6929,
+      "price": 4.7166,
       "currency": "$",
-      "changePct1D": 2.74,
-      "changeAbs1D": 0.1251,
+      "changePct1D": 3.26,
+      "changeAbs1D": 0.1488,
       "sparkline": [
         3.882,
         3.9024,
@@ -185,9 +185,9 @@
         4.5936,
         4.5402,
         4.5678,
-        4.6929
+        4.7166
       ],
-      "updatedAt": "2026-09-09 07:13 UTC",
+      "updatedAt": "2026-09-09 12:48 UTC",
       "source": "Yahoo Finance / NYMEX"
     }
   ],
@@ -197,10 +197,10 @@
       "name": "Gold",
       "category": "commodities",
       "symbol": "GC",
-      "price": 4449.6,
+      "price": 4442.8,
       "currency": "$",
-      "changePct1D": 1.27,
-      "changeAbs1D": 55.7001,
+      "changePct1D": 1.11,
+      "changeAbs1D": 48.9001,
       "sparkline": [
         4242.0,
         4340.7002,
@@ -225,9 +225,9 @@
         4491.7002,
         4429.7998,
         4393.8999,
-        4449.6001
+        4442.7998
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:49 UTC",
       "source": "Yahoo Finance / COMEX"
     },
     {
@@ -235,10 +235,10 @@
       "name": "Silver",
       "category": "commodities",
       "symbol": "SI",
-      "price": 67.46,
+      "price": 66.905,
       "currency": "$",
-      "changePct1D": 1.75,
-      "changeAbs1D": 1.163,
+      "changePct1D": 0.92,
+      "changeAbs1D": 0.608,
       "sparkline": [
         61.439,
         63.332,
@@ -263,9 +263,9 @@
         66.973,
         66.047,
         66.297,
-        67.46
+        66.905
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:49 UTC",
       "source": "Yahoo Finance / COMEX"
     },
     {
@@ -273,10 +273,10 @@
       "name": "Copper",
       "category": "commodities",
       "symbol": "HG",
-      "price": 6.7975,
+      "price": 6.7875,
       "currency": "$",
-      "changePct1D": 0.87,
-      "changeAbs1D": 0.0585,
+      "changePct1D": 0.72,
+      "changeAbs1D": 0.0485,
       "sparkline": [
         6.687,
         6.5705,
@@ -301,9 +301,9 @@
         6.577,
         6.597,
         6.739,
-        6.7975
+        6.7875
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:48 UTC",
       "source": "Yahoo Finance / COMEX"
     },
     {
@@ -311,10 +311,10 @@
       "name": "Platinum",
       "category": "commodities",
       "symbol": "PL",
-      "price": 1860.6,
+      "price": 1867.0,
       "currency": "$",
-      "changePct1D": 0.67,
-      "changeAbs1D": 12.4,
+      "changePct1D": 1.02,
+      "changeAbs1D": 18.8,
       "sparkline": [
         1729.0,
         1750.1,
@@ -339,9 +339,9 @@
         1828.4,
         1821.0,
         1848.2,
-        1860.6
+        1867.0
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:49 UTC",
       "source": "Yahoo Finance / NYMEX"
     },
     {
@@ -349,10 +349,10 @@
       "name": "Palladium",
       "category": "commodities",
       "symbol": "PA",
-      "price": 1371.0,
+      "price": 1354.5,
       "currency": "$",
-      "changePct1D": 1.14,
-      "changeAbs1D": 15.4,
+      "changePct1D": -0.08,
+      "changeAbs1D": -1.1,
       "sparkline": [
         1372.9,
         1374.1,
@@ -377,9 +377,9 @@
         1425.9,
         1390.1,
         1355.6,
-        1371.0
+        1354.5
       ],
-      "updatedAt": "2026-09-09 07:13 UTC",
+      "updatedAt": "2026-09-09 12:49 UTC",
       "source": "Yahoo Finance / NYMEX"
     }
   ],
@@ -389,10 +389,10 @@
       "name": "Corn",
       "category": "agriculture",
       "symbol": "ZC",
-      "price": 532.5,
+      "price": 529.75,
       "currency": "$",
-      "changePct1D": 4.21,
-      "changeAbs1D": 21.5,
+      "changePct1D": 3.67,
+      "changeAbs1D": 18.75,
       "sparkline": [
         439.0,
         439.0,
@@ -417,9 +417,9 @@
         515.25,
         512.0,
         511.0,
-        532.5
+        529.75
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:44 UTC",
       "source": "Yahoo Finance / CBOT"
     },
     {
@@ -427,10 +427,10 @@
       "name": "Wheat",
       "category": "agriculture",
       "symbol": "ZW",
-      "price": 750.75,
+      "price": 746.5,
       "currency": "$",
-      "changePct1D": 2.81,
-      "changeAbs1D": 20.5,
+      "changePct1D": 2.23,
+      "changeAbs1D": 16.25,
       "sparkline": [
         631.25,
         639.75,
@@ -455,9 +455,9 @@
         736.0,
         716.0,
         730.25,
-        750.75
+        746.5
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:44 UTC",
       "source": "Yahoo Finance / CBOT"
     },
     {
@@ -465,10 +465,10 @@
       "name": "Soybeans",
       "category": "agriculture",
       "symbol": "ZS",
-      "price": 1317.75,
+      "price": 1313.5,
       "currency": "$",
-      "changePct1D": 1.17,
-      "changeAbs1D": 15.25,
+      "changePct1D": 0.84,
+      "changeAbs1D": 11.0,
       "sparkline": [
         1157.25,
         1156.5,
@@ -493,9 +493,9 @@
         1306.25,
         1293.75,
         1302.5,
-        1317.75
+        1313.5
       ],
-      "updatedAt": "2026-09-09 07:14 UTC",
+      "updatedAt": "2026-09-09 12:44 UTC",
       "source": "Yahoo Finance / CBOT"
     },
     {
@@ -503,12 +503,11 @@
       "name": "Cotton",
       "category": "agriculture",
       "symbol": "CT",
-      "price": 86.45,
+      "price": 86.81,
       "currency": "$",
-      "changePct1D": 4.89,
-      "changeAbs1D": 4.03,
+      "changePct1D": 5.05,
+      "changeAbs1D": 4.17,
       "sparkline": [
-        81.84,
         81.96,
         83.22,
         82.72,
@@ -531,9 +530,10 @@
         86.38,
         83.36,
         82.42,
-        82.64
+        82.64,
+        86.81
       ],
-      "updatedAt": "2026-09-08 15:30 UTC",
+      "updatedAt": "2026-09-09 12:30 UTC",
       "source": "Yahoo Finance / ICE"
     },
     {
@@ -541,12 +541,11 @@
       "name": "Sugar",
       "category": "agriculture",
       "symbol": "SB",
-      "price": 18.08,
+      "price": 19.21,
       "currency": "$",
-      "changePct1D": 0.06,
-      "changeAbs1D": 0.01,
+      "changePct1D": 6.13,
+      "changeAbs1D": 1.11,
       "sparkline": [
-        15.15,
         15.57,
         16.45,
         16.47,
@@ -569,9 +568,10 @@
         18.7,
         18.07,
         18.07,
-        18.1
+        18.1,
+        19.21
       ],
-      "updatedAt": "2026-09-08 16:59 UTC",
+      "updatedAt": "2026-09-09 12:38 UTC",
       "source": "Yahoo Finance / ICE"
     },
     {
