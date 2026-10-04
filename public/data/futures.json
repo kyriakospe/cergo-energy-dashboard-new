@@ -1,44 +1,6 @@
 {
   "energy": [
     {
-      "id": "cl",
-      "name": "WTI Crude Oil",
-      "category": "energy",
-      "symbol": "CL",
-      "price": 91.11,
-      "currency": "$",
-      "changePct1D": -1.9,
-      "changeAbs1D": -1.76,
-      "sparkline": [
-        85.76,
-        90.22,
-        91.01,
-        91.3,
-        91.48,
-        93.03,
-        96.05,
-        102.48,
-        100.05,
-        101.39,
-        105.83,
-        102.43,
-        101.91,
-        100.3,
-        95.78,
-        94.59,
-        92.16,
-        94.61,
-        92.41,
-        92.6,
-        89.38,
-        90.42,
-        92.87,
-        91.11
-      ],
-      "updatedAt": "2026-10-02 21:00 UTC",
-      "source": "Yahoo Finance / NYMEX"
-    },
-    {
       "id": "bz",
       "name": "Brent Crude Oil",
       "category": "energy",
@@ -263,7 +225,7 @@
         60.668,
         60.098,
         60.725,
-        59.977
+        60.415
       ],
       "updatedAt": "2026-10-02 20:59 UTC",
       "source": "Yahoo Finance / COMEX"
@@ -301,7 +263,7 @@
         6.5435,
         6.559,
         6.482,
-        6.492
+        6.549
       ],
       "updatedAt": "2026-10-02 20:59 UTC",
       "source": "Yahoo Finance / COMEX"
@@ -339,7 +301,7 @@
         1680.1,
         1702.3,
         1705.5,
-        1683.2
+        1700.0
       ],
       "updatedAt": "2026-10-02 21:00 UTC",
       "source": "Yahoo Finance / NYMEX"
@@ -377,7 +339,7 @@
         1201.6,
         1201.4,
         1168.8,
-        1161.1
+        1172.2
       ],
       "updatedAt": "2026-10-02 20:59 UTC",
       "source": "Yahoo Finance / NYMEX"
@@ -607,7 +569,7 @@
         333.65,
         336.425,
         338.875,
-        334.625
+        331.15
       ],
       "updatedAt": "2026-10-02 18:04 UTC",
       "source": "Yahoo Finance / CME"
@@ -645,7 +607,7 @@
         217.225,
         218.675,
         219.3,
-        218.85
+        221.475
       ],
       "updatedAt": "2026-10-02 18:04 UTC",
       "source": "Yahoo Finance / CME"
