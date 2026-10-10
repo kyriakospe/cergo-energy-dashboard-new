@@ -1,11 +1,6 @@
 {
   "MTD": [
     {
-      "name": "Cotton",
-      "group": "agriculture",
-      "value": 5.68
-    },
-    {
       "name": "Natural Gas",
       "group": "energy",
       "value": 5.02
@@ -23,7 +18,12 @@
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": 3.3
+      "value": 2.82
+    },
+    {
+      "name": "WTI Crude Oil",
+      "group": "energy",
+      "value": 2.69
     },
     {
       "name": "Soybeans",
@@ -68,14 +68,14 @@
       "value": 3.47
     },
     {
-      "name": "Platinum",
-      "group": "commodities",
-      "value": -9.14
-    },
-    {
       "name": "Silver",
       "group": "commodities",
       "value": -10.7
+    },
+    {
+      "name": "Platinum",
+      "group": "commodities",
+      "value": -12.28
     },
     {
       "name": "Palladium",
@@ -84,11 +84,6 @@
     }
   ],
   "QTD": [
-    {
-      "name": "Cotton",
-      "group": "agriculture",
-      "value": 5.68
-    },
     {
       "name": "Natural Gas",
       "group": "energy",
@@ -107,7 +102,12 @@
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": 3.3
+      "value": 2.82
+    },
+    {
+      "name": "WTI Crude Oil",
+      "group": "energy",
+      "value": 2.69
     },
     {
       "name": "Soybeans",
@@ -196,7 +196,7 @@
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": -19.9
+      "value": -18.05
     },
     {
       "name": "Silver",
@@ -307,7 +307,7 @@
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": 96.92
+      "value": 92.65
     },
     {
       "name": "Copper",
@@ -327,7 +327,7 @@
     {
       "name": "Cotton",
       "group": "agriculture",
-      "value": -6.62
+      "value": -12.25
     },
     {
       "name": "Sugar",
@@ -364,7 +364,7 @@
     {
       "name": "Cotton",
       "group": "agriculture",
-      "value": -24.68
+      "value": -31.3
     },
     {
       "name": "Palladium",
@@ -406,7 +406,7 @@
     {
       "name": "Cotton",
       "group": "agriculture",
-      "value": 19.96
+      "value": 13.51
     },
     {
       "name": "Natural Gas",
