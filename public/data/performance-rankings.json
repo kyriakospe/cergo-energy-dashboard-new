@@ -1,6 +1,11 @@
 {
   "MTD": [
     {
+      "name": "Cotton",
+      "group": "agriculture",
+      "value": 5.68
+    },
+    {
       "name": "Natural Gas",
       "group": "energy",
       "value": 5.02
@@ -18,22 +23,17 @@
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": 2.82
+      "value": 3.3
     },
     {
-      "name": "WTI Crude Oil",
-      "group": "energy",
-      "value": 2.69
+      "name": "Soybeans",
+      "group": "agriculture",
+      "value": -0.42
     },
     {
       "name": "Wheat",
       "group": "agriculture",
       "value": -2.26
-    },
-    {
-      "name": "Sugar",
-      "group": "agriculture",
-      "value": -2.32
     },
     {
       "name": "Corn",
@@ -68,14 +68,14 @@
       "value": 3.47
     },
     {
+      "name": "Platinum",
+      "group": "commodities",
+      "value": -9.14
+    },
+    {
       "name": "Silver",
       "group": "commodities",
       "value": -10.7
-    },
-    {
-      "name": "Platinum",
-      "group": "commodities",
-      "value": -12.28
     },
     {
       "name": "Palladium",
@@ -84,6 +84,11 @@
     }
   ],
   "QTD": [
+    {
+      "name": "Cotton",
+      "group": "agriculture",
+      "value": 5.68
+    },
     {
       "name": "Natural Gas",
       "group": "energy",
@@ -102,22 +107,17 @@
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": 2.82
+      "value": 3.3
     },
     {
-      "name": "WTI Crude Oil",
-      "group": "energy",
-      "value": 2.69
+      "name": "Soybeans",
+      "group": "agriculture",
+      "value": -0.42
     },
     {
       "name": "Wheat",
       "group": "agriculture",
       "value": -2.26
-    },
-    {
-      "name": "Sugar",
-      "group": "agriculture",
-      "value": -2.32
     },
     {
       "name": "Corn",
@@ -196,7 +196,7 @@
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": -18.05
+      "value": -19.9
     },
     {
       "name": "Silver",
@@ -231,9 +231,9 @@
       "value": 64.05
     },
     {
-      "name": "Sugar",
-      "group": "agriculture",
-      "value": 37.2
+      "name": "S&P GSCI Index",
+      "group": "indices",
+      "value": 33.7
     },
     {
       "name": "Silver",
@@ -307,7 +307,7 @@
     {
       "name": "Platinum",
       "group": "commodities",
-      "value": 92.65
+      "value": 96.92
     },
     {
       "name": "Copper",
@@ -327,7 +327,7 @@
     {
       "name": "Cotton",
       "group": "agriculture",
-      "value": -12.25
+      "value": -6.62
     },
     {
       "name": "Sugar",
@@ -364,7 +364,7 @@
     {
       "name": "Cotton",
       "group": "agriculture",
-      "value": -31.3
+      "value": -24.68
     },
     {
       "name": "Palladium",
@@ -406,7 +406,7 @@
     {
       "name": "Cotton",
       "group": "agriculture",
-      "value": 13.51
+      "value": 19.96
     },
     {
       "name": "Natural Gas",
