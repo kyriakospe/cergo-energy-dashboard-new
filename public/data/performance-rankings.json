@@ -90,6 +90,11 @@
       "value": 5.35
     },
     {
+      "name": "Sugar",
+      "group": "agriculture",
+      "value": 1.04
+    },
+    {
       "name": "Feeder Cattle",
       "group": "agriculture",
       "value": 0.26
@@ -103,11 +108,6 @@
       "name": "Live Cattle",
       "group": "agriculture",
       "value": -0.43
-    },
-    {
-      "name": "WTI Crude Oil",
-      "group": "energy",
-      "value": -0.98
     },
     {
       "name": "Wheat",
@@ -231,9 +231,9 @@
       "value": 54.15
     },
     {
-      "name": "Sugar",
-      "group": "agriculture",
-      "value": 24.73
+      "name": "S&P GSCI Index",
+      "group": "indices",
+      "value": 24.1
     },
     {
       "name": "Platinum",
